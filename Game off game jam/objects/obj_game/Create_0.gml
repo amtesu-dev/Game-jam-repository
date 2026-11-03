@@ -1,0 +1,6 @@
+
+//global.points = 0
+
+
+	
+	

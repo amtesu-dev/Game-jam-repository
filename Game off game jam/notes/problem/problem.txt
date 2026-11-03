@@ -1,0 +1,4 @@
+
+the obj_spawner doesn't fucking work
+all the dudes objects are fixed to a specific direction even after i specifiy the direction in the var_struct of
+instance_create_layer

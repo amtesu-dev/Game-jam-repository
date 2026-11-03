@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_dialog_create",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_dialog_create",
+  "parent":{
+    "name":"functions",
+    "path":"folders/scripts/functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

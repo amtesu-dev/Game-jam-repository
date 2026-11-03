@@ -1,0 +1,3 @@
+
+the objects needs a few funcs for automating purchases and drawing the coorisponding sprite for the object that is being baught
+

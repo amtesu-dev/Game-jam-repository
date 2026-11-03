@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_vars_global",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_vars_global",
+  "parent":{
+    "name":"variables",
+    "path":"folders/scripts/variables.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

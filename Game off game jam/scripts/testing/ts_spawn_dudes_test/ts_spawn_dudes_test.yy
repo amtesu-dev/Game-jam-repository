@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"ts_spawn_dudes_test",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ts_spawn_dudes_test",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

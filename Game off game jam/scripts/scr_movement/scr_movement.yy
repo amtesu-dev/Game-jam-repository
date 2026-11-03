@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_movement",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_movement",
+  "parent":{
+    "name":"functions",
+    "path":"folders/scripts/functions.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
