@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"game",
-    "path":"folders/objects/tower defense stuff/game.yy",
+    "path":"folders/objects/game.yy",
   },
   "parentObjectId":null,
   "persistent":false,

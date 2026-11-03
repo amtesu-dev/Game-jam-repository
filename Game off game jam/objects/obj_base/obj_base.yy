@@ -9,7 +9,10 @@
     "name":"bases",
     "path":"folders/objects/tower defense stuff/bases.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_drag",
+    "path":"objects/obj_drag/obj_drag.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

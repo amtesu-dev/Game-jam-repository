@@ -13,8 +13,8 @@
     "path":"folders/objects/tower defense stuff/cannons.yy",
   },
   "parentObjectId":{
-    "name":"obj_drag",
-    "path":"objects/obj_drag/obj_drag.yy",
+    "name":"obj_tower_parent",
+    "path":"objects/obj_tower_parent/obj_tower_parent.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -29,13 +29,7 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"can_shoot","filters":[],"listItems":[],"multiselect":false,"name":"can_shoot","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
-    {"$GMObjectProperty":"v2","%Name":"bullet_dmg","filters":[],"listItems":[],"multiselect":false,"name":"bullet_dmg","rangeEnabled":true,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"bullet_spd","filters":[],"listItems":[],"multiselect":false,"name":"bullet_spd","rangeEnabled":true,"rangeMax":100.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"bullet_num","filters":[],"listItems":[],"multiselect":false,"name":"bullet_num","rangeEnabled":true,"rangeMax":3.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
-    {"$GMObjectProperty":"v2","%Name":"spread_shoot","filters":[],"listItems":[],"multiselect":false,"name":"spread_shoot","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
@@ -44,5 +38,8 @@
     "path":"sprites/spr_cannon/spr_cannon.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "dragable",
+  ],
   "visible":true,
 }

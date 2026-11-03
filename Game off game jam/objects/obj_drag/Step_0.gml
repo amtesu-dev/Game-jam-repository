@@ -5,7 +5,9 @@ if (drag)
 {
 	x = mouse_x
 	y = mouse_y
-	layer = layer_drag
+	//layer = layer_drag
+	
+	depth = depth_start - depth_change
 	
 	// unused vars, the goal was to try and fix a tiny problem where the objects would snap around the tiles
 	//var grid = collision_circle(x,y,self.sprite_height/2,obj_grid,true,true)
@@ -24,5 +26,6 @@ if (drag)
 }
 else 
 {
-	layer = layer_not_drag
+	depth = depth_start
+	//layer = layer_not_drag
 }

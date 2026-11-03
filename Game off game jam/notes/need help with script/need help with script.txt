@@ -1,0 +1,8 @@
+hey guys so i wanted to replace the obj_drag with a simple script that checks for an object's tags and retrives
+it's "dragable" tag, and using it you can drag any object around more easily without replacing or setting a parent
+for each and every object that needs dragging
+
+don't worry about the code in the other objects that work with it i just need the draging to work properly 
+some objects (just obj_cannon lol) use the drag object but it won't affect much
+
+i just REALLY don't know how to use tags and functions that call them pls help i've tried and i've only been breaking stuff

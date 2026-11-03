@@ -1,5 +1,5 @@
 
-//global.points = 0
+global.points = 5000
 
 
 	

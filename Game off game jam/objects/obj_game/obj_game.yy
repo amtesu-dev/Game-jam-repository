@@ -11,10 +11,10 @@
   "overriddenProperties":[],
   "parent":{
     "name":"game",
-    "path":"folders/objects/tower defense stuff/game.yy",
+    "path":"folders/objects/game.yy",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,

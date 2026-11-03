@@ -3,7 +3,7 @@
 #region variables
 
 	#region random values
-	var obj = obj_enemy
+	var obj = obj_dude_enemy
 	var rnd = random(1)
 	var rnd_dudes = random(1)
 	#endregion
@@ -22,27 +22,27 @@ var var_struct = {}
 
 
 #region random dudes spawn type
-if obj = obj_enemy or obj = obj_friend
+if obj = obj_dude_enemy or obj = obj_dude_friend
 {
 	if spawn_dudes_random
 	{
 		if rnd_dudes <= 0.5 
 		{
-			obj = obj_enemy
+			obj = obj_dude_enemy
 		}
 		else
 		{
-			obj = obj_friend
+			obj = obj_dude_friend
 		}
 	}
 
 	else if spawn_nice_dudes
 	{
-		obj = obj_friend
+		obj = obj_dude_friend
 	}
 	else if spawn_evil_dudes
 	{
-		obj = obj_enemy
+		obj = obj_dude_enemy
 	}
 }
 #endregion
@@ -98,7 +98,7 @@ else if rnd > 0.5 and rnd <= 1 //spawn bottom
 
 if spawn_delay <= 0
 {
-	if instance_number(obj_friend) + instance_number(obj_enemy) <= 50 // number of spawns limiter
+	if instance_number(obj_dude_friend) + instance_number(obj_dude_enemy) <= 50 // number of spawns limiter
 	{
 		spawn_obj(obj,x_pos,y_pos,random_x,random_y,rnd_min_x,rnd_max_x,rnd_min_y,rnd_max_y,var_struct)
 		// the spawning part

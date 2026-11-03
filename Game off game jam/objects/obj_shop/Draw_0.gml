@@ -1,6 +1,7 @@
 draw_self()
 
-var spr = array_items[0].sprite_index
+item = item_num - 1
+var spr = array_items[item].sprite_index
 
 draw_sprite(spr,-1,x,y)
 	
