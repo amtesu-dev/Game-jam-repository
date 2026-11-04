@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_drag",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_drag",
+  "parent":{
+    "name":"code",
+    "path":"folders/scripts/code.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

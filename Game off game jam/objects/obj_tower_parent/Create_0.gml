@@ -1,4 +1,8 @@
-event_inherited();
+// Mantém compatibilidade com o código da torre e com itens criados pela loja.
+// A loja pode passar {drag: true}; não sobrescrevemos esse pedido.
+if (!variable_instance_exists(id, "drag")) {
+	drag = false;
+}
 
 enemies = [obj_dude_enemy]
 friends = [obj_dude_friend]
