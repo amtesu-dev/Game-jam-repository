@@ -3,9 +3,12 @@
   "%Name":"need help with script",
   "name":"need help with script",
   "parent":{
-    "name":"notes",
-    "path":"folders/notes.yy",
+    "name":"need help something",
+    "path":"folders/notes/need help something.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",
+  "tags":[
+    "FIXED",
+  ],
 }

@@ -6,3 +6,4 @@ don't worry about the code in the other objects that work with it i just need th
 some objects (just obj_cannon lol) use the drag object but it won't affect much
 
 i just REALLY don't know how to use tags and functions that call them pls help i've tried and i've only been breaking stuff
+[FIXED, by amtesu2; thanks dude]

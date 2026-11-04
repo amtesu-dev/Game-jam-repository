@@ -5,3 +5,6 @@ obj_tower_parent, obj_cannon e as salas Room1, testing/Room2 e testing/rm_1.
 
 Para restaurar, copie os itens desta pasta de volta para a pasta
 "Game off game jam", preservando os caminhos relativos.
+
+mind making your future notes have a translated version?
+-Hastiry

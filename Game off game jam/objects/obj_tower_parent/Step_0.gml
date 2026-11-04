@@ -8,10 +8,6 @@
  
 //image_angle = cannon_dir
 
-if (keyboard_check_pressed(vk_space)) bullet_num ++
- 
-if (bullet_num >= 4) bullet_num = 0
-
 
 if (drag) can_shoot = false
 else can_shoot = true

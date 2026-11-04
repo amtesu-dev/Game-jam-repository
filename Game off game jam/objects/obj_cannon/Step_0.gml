@@ -1,13 +1,6 @@
 event_inherited();
 
 cannon_dir = direction
-
-
-
-
-
-
- 
 image_angle = cannon_dir
 
 if (keyboard_check_pressed(vk_space)) bullet_num ++
@@ -15,6 +8,8 @@ if (keyboard_check_pressed(vk_space)) bullet_num ++
 if (bullet_num >= 4) bullet_num = 0
 
 
+
+#region commented code, already used in the create event
 //if (drag) can_shoot = false
 //else can_shoot = true
 
@@ -102,3 +97,4 @@ if (bullet_num >= 4) bullet_num = 0
 	
 //}
 
+#endregion

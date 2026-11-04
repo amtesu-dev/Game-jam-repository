@@ -1,0 +1,2 @@
+i transfered all of the obj_drag_manager's code into the obj_game instead, which is intended to be available in
+the game at all times so it does it's job well enough

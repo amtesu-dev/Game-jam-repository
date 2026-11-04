@@ -1,5 +1,6 @@
 // Mantém compatibilidade com o código da torre e com itens criados pela loja.
 // A loja pode passar {drag: true}; não sobrescrevemos esse pedido.
+// hey buddy, can we NOT right comments in brazilian? it'd be awsome -Hastiry
 if (!variable_instance_exists(id, "drag")) {
 	drag = false;
 }

@@ -7,7 +7,9 @@
   ],
   "managed":true,
   "name":"obj_cannon",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_parent","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"propertyId":{"name":"hp","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+  ],
   "parent":{
     "name":"cannons",
     "path":"folders/objects/tower defense stuff/cannons.yy",
@@ -29,7 +31,10 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"bullet_num","filters":[],"listItems":[],"multiselect":false,"name":"bullet_num","rangeEnabled":true,"rangeMax":3.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"spread_shoot","filters":[],"listItems":[],"multiselect":false,"name":"spread_shoot","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varDescription":"unused","varType":3,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,

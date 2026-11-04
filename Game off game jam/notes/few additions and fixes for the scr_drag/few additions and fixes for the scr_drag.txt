@@ -1,0 +1,26 @@
+
+hey amtesu2 thanks for making the script, i tested it a bit and i found a few small issues and additions that would be cool to have
+
+[ADDITIONS]
+
+1) a locked state for the objects that get released into a grid, while locked you wouldn't be able to move the 
+objects around as you please after setting them up
+
+2) an occupied state for the grids, so that if an object is already occupying the grid you wouldn't be able to 
+put another object in that grid (as of what will happen to the object that can't get in that same grid, it'll be
+a good idea to just destroy it and give the player the object's price (points) back, and maybe have a red sort of
+indicator for it; don't bother making the red indicators i'm just leaving this in so we would add it later!)
+
+3) objects occupying multiple grids at once, which would be determined by how big they are (in scale or pixels)
+
+[FIXES]
+
+1) making the objects only shift their position when the mouse enters the radius of a grid.
+this is a very slight issue and all it does is that it makes the objects snap without being within the grid's range
+
+
+
+[ISSUES]
+
+1) for whatever reason if you move your mouse too fast the object will keep following your mouse even if you let go of the LMB, doens't 
+cause any serious issues you can just click again and it'l let go.

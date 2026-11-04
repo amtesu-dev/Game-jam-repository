@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"ts_spawn_dudes_test",
+  "%Name":"scr_ts_spawn_dudes_test",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"ts_spawn_dudes_test",
+  "name":"scr_ts_spawn_dudes_test",
   "parent":{
     "name":"testing",
     "path":"folders/scripts/testing.yy",

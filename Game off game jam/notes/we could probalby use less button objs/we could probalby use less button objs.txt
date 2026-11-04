@@ -1,0 +1,4 @@
+
+i'm pretty sure it's possibly to just make a button object and add all the code and stuff through creation code
+
+it works but would be useful when we need more buttons, better than creating another object for each button
