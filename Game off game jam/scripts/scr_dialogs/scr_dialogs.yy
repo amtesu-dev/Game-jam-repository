@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_dialogs",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_dialogs",
+  "parent":{
+    "name":"variables",
+    "path":"folders/scripts/variables.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -2,6 +2,7 @@ event_inherited();
 
 cannon_dir = direction
 
+image_follow_dir = true
 ex_shoot = function() { switch (bullet_num)
 		{
 			

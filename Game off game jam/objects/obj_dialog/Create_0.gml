@@ -12,3 +12,5 @@ input_key_skip_fast = ord("C")
 gui_w = display_get_gui_width();
 gui_h = display_get_gui_height();
 
+//gui_w = 100;
+//gui_h = 40;

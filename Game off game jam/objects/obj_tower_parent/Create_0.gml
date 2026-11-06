@@ -19,6 +19,12 @@ shooting = true;
 shoot_delay = 0;
 shoot_frames = 30;
 
+target_current = noone
+target_list = [obj_dude_enemy]
 
+
+image_follow_dir = false
+
+dest = noone // the destination angle that the object will be using, make sure it is NEVER left unset (if you're using it, that is)
 
 ex_shoot = function(){}	//the code that is run whenever you shoot
