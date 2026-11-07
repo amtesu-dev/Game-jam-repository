@@ -4,6 +4,4 @@ global.spawner_order ++;
 
 dir = direction
 
-instance_create_layer(x,y,"lay_instances",obj_dude_friend,{
-dir: dir
-})
+spawn_timer = 0

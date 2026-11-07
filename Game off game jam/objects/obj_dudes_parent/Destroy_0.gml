@@ -6,3 +6,4 @@ else
 {
 	global.points -= added_points
 }
+

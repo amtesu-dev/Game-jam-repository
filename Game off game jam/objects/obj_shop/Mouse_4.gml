@@ -1,7 +1,6 @@
 
 var current_item = array_items[item]
 //var price = prices
-var item_price = c_item.price 
 
 
 //if global.points >= c_item.price
@@ -9,7 +8,20 @@ var item_price = c_item.price
 	
 //}
 
-c_item = instance_create_layer(mouse_x,mouse_y,"lay_instances",current_item,{drag: true,price:prices[item]})
+c_item = instance_create_layer(mouse_x,mouse_y,"lay_instances",current_item,{drag: true})
+
+if (not variable_instance_exists(c_item,"price") and array_length(prices) > item + 1 )
+// checks if the item already has a price or not and if the prices array has it's price within range
+{
+	c_item.price = prices[item]
+}
+else 
+{
+	c_item.price = 	def_price	// if not then the price is set to the default price (in variable diffinitions)
+}
+var item_price = c_item.price 
+
+
 // sets the price and drag state of the item and creates it
 
 global.points -= item_price	// takes the item price from the points

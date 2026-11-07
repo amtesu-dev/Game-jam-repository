@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_no_hp",
+  "%Name":"scr_test_make_string",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_no_hp",
+  "name":"scr_test_make_string",
   "parent":{
-    "name":"code",
-    "path":"folders/scripts/code.yy",
+    "name":"testing",
+    "path":"folders/scripts/testing.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

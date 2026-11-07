@@ -9,8 +9,8 @@
   "name":"obj_dudes_spawner",
   "overriddenProperties":[],
   "parent":{
-    "name":"dudes",
-    "path":"folders/objects/tower defense stuff/dudes.yy",
+    "name":"enemies",
+    "path":"folders/objects/testing/enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,

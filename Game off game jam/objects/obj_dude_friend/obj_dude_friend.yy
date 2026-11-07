@@ -9,8 +9,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dudes_parent","path":"objects/obj_dudes_parent/obj_dudes_parent.yy",},"propertyId":{"name":"added_points","path":"objects/obj_dudes_parent/obj_dudes_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1",},
   ],
   "parent":{
-    "name":"dudes",
-    "path":"folders/objects/tower defense stuff/dudes.yy",
+    "name":"enemies",
+    "path":"folders/objects/testing/enemies.yy",
   },
   "parentObjectId":{
     "name":"obj_dudes_parent",

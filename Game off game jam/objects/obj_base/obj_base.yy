@@ -7,12 +7,9 @@
   "overriddenProperties":[],
   "parent":{
     "name":"bases",
-    "path":"folders/objects/tower defense stuff/bases.yy",
+    "path":"folders/objects/testing/bases.yy",
   },
-  "parentObjectId":{
-    "name":"obj_drag",
-    "path":"objects/obj_drag/obj_drag.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_deal_dmg",
   "parent":{
-    "name":"functions",
-    "path":"folders/scripts/functions.yy",
+    "name":"towers",
+    "path":"folders/scripts/functions/towers.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

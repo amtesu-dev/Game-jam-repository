@@ -7,22 +7,21 @@ function func_spawn_obj(spawned_object,location_x,location_y,random_location,rnd
 	// "var_struct" should be set as undefiened if you don't want to use it
 	if rnd_min_y = noone or undefined and rnd_max_y = noone or undefined
 	{
-	rnd_min_y = rnd_min_x
-	rnd_max_y = rnd_min_x
+		rnd_min_y = rnd_min_x
+		rnd_max_y = rnd_min_x
 	}
 	else if rnd_min_x = noone or undefined and rnd_max_x = noone or undefined
 	{
-	rnd_min_x = rnd_min_y
-	rnd_max_x = rnd_max_y	
+		rnd_min_x = rnd_min_y
+		rnd_max_x = rnd_max_y	
 	}
 	
 	
 	
 	if random_location == true
 	{
-	
-	location_x = random_range(rnd_min_x,rnd_max_x)
-	location_y = random_range(rnd_min_y,rnd_max_y)
+		location_x = random_range(rnd_min_x,rnd_max_x)
+		location_y = random_range(rnd_min_y,rnd_max_y)
 	}
 
 

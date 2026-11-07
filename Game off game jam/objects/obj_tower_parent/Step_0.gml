@@ -1,5 +1,3 @@
-//var cannon_dir = direction
-
 
 var dir = direction
 
@@ -7,7 +5,6 @@ var dir = direction
 
 
  
-//image_angle = cannon_dir
 
 
 if (drag) can_shoot = false
@@ -69,9 +66,12 @@ if instance_exists(obj_dude_enemy)
 }
 
 
+if keyboard_check_pressed(ord("M"))
+{
+	follow_mouse = not follow_mouse
+}
 
-
-dest = point_direction(x,y,mouse_x,mouse_y)
+if (follow_mouse) dest = point_direction(x,y,mouse_x,mouse_y)
 
 
 

@@ -11,7 +11,7 @@
   ],
   "parent":{
     "name":"bullets",
-    "path":"folders/objects/tower defense stuff/bullets.yy",
+    "path":"folders/objects/units/bullets.yy",
   },
   "parentObjectId":{
     "name":"obj_bullet_parent",

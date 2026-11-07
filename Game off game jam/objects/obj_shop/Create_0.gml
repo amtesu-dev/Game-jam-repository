@@ -1,5 +1,7 @@
 
-array_items = [obj_cannon,obj_base]
+array_items = [obj_tower_cannon,obj_base]
+
+array_units = [obj_tower_cannon,obj_tower_2]
 
 prices = [500,20]
 
