@@ -9,6 +9,6 @@
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",
   "tags":[
-    "NOT FIXED",
+    "FIXED",
   ],
 }

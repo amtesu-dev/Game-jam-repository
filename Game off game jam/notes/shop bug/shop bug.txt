@@ -9,3 +9,7 @@ so
 
 
 -Hastiry
+[FIXED, by Hastiry]
+
+all i had to add was refrence the object when it's being created and then change the price variable for that 
+created object and use it there (in the LMB pressed event).
