@@ -3,6 +3,7 @@
 function scr_drag_update() {
 	var _mouse_pressed = mouse_check_button_pressed(mb_left);
 
+	
 	//	Select an new target at click. Also respect drag:true used by the store
 	// to start moving an item early bought.
 	if (dragged_id == noone) {
@@ -11,11 +12,17 @@ function scr_drag_update() {
 
 		for (var _i = 0; _i < _hit_count; _i++) {
 			var _candidate = _hits[| _i];
+			//if (variable_instance_exists(_candidate,"locked"))
+			//{
+			//	_locked = variable_instance_get(_candidate,"locked")
+			//}
 			if (!instance_exists(_candidate)) continue;
+			
 
 			var _object_name = object_get_name(_candidate.object_index);
 			if (!asset_has_tags(_object_name, "dragable")) continue;
-
+			
+		
 			var _shop_requested_drag = variable_instance_exists(_candidate, "drag")
 				&& _candidate.drag;
 			if (!_mouse_pressed && !_shop_requested_drag) continue;

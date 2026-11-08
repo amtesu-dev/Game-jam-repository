@@ -6,8 +6,8 @@
   "name":"obj_tower_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"units",
-    "path":"folders/objects/units.yy",
+    "name":"towers",
+    "path":"folders/objects/units/towers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

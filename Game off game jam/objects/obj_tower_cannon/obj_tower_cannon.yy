@@ -13,8 +13,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_parent","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"propertyId":{"name":"price","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
   ],
   "parent":{
-    "name":"units",
-    "path":"folders/objects/units.yy",
+    "name":"towers",
+    "path":"folders/objects/units/towers.yy",
   },
   "parentObjectId":{
     "name":"obj_tower_parent",
