@@ -101,4 +101,4 @@ if instance_exists(obj_dude_enemy)
 	
 }
 
-func_shoot_mouse(true,mb_left,false,true)
+//func_shoot_mouse(true,mb_left,false,true,)

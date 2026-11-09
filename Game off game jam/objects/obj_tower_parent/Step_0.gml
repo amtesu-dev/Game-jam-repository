@@ -57,14 +57,17 @@ if (can_shoot)
 
 	#endregion
 
-	if keyboard_check_pressed(ord("M")) // set the target as the mouse
-	{
-		follow_mouse = not follow_mouse
-	}
+	#region following the mouse
+		var follow = global.follow_mouse
+		if keyboard_check_pressed(ord("M")) // set the target as the mouse
+		{
+			global.follow_mouse = not global.follow_mouse
+			show_message(string(global.follow_mouse))
+		}
 
-	if (follow_mouse) dest = point_direction(x,y,mouse_x,mouse_y)
+		if (global.follow_mouse) dest = point_direction(x,y,mouse_x,mouse_y)
 
-
+	#endregion
 
 
 	var get_nearest = function() //attempt to retrieve the nearest object in the target_list array
@@ -80,14 +83,17 @@ if (can_shoot)
 
 
 	target_nearest = instance_nearest(x,y,obj_dude_enemy)
+	
 
-	if (target = noone)
+
+	if (target == noone )
 	{
-		target = collision_circle(x,y,radius,target_nearest,false,true);
+		target = collision_circle(x,y,radius,target_nearest,false,true);	//sets a target if it's within range
 	}
 	else 
 	{
-		if (not instance_exists(target))
+		if (not instance_exists(target) or not point_in_circle(target.x,target.y,x,y,radius))
+		// checks if the target doesn't exit or if the target is within range
 		{
 			target = noone;
 		}
@@ -101,11 +107,20 @@ if (can_shoot)
 	{
 		dest = point_direction(x,y,target.x,target.y)
 	}
-
-	var diff = angle_difference(dest,dir)
-
-	direction += diff * 0.1
+	
+	if (dest != undefined)
+	{
+		var diff = angle_difference(dest,dir)
+		direction += diff * 0.1
+	}
+	else
+	{
+		dest = 0
+		var diff = angle_difference(dest,dir)
+		direction += diff * 0.1
+	}
 
 	if (image_follow_dir) image_angle = direction
+	
 
 #endregion

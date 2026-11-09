@@ -2,7 +2,6 @@
 // A loja pode passar {drag: true}; não sobrescrevemos esse pedido.
 // hey buddy, can we NOT right comments in brazilian? it'd be awsome -Hastiry
 
-follow_mouse = true
 
 
 if (!variable_instance_exists(id, "drag")) {

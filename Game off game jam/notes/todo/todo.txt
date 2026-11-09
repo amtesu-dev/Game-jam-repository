@@ -1,0 +1,3 @@
+ finish the buttons stuff (aka using the "can_ex_code" variable in all of them ( in the menu_1 room)) and improvments and push the commit
+ [half done]
+ most of the button stuff are finished though there's a weird problem i'll be dealing with

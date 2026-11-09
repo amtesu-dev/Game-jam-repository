@@ -1,12 +1,24 @@
 
-
-scr_drag_update(); //update the dragging process
-
+if (update_drag)
+{
+	scr_drag_update(); //update the dragging process
+}
 
 
 if keyboard_check_pressed(ord("R"))
 {
 	room_restart();
+}
+
+if keyboard_check_pressed(vk_escape)
+{
+	game_restart()
+}
+
+
+if (ex_code_step != undefined)
+{
+	ex_code_step();
 }
 
 
