@@ -8,8 +8,8 @@
   "name":"obj_button_play",
   "overriddenProperties":[],
   "parent":{
-    "name":"menu",
-    "path":"folders/objects/menu.yy",
+    "name":"UNUSED",
+    "path":"folders/UNUSED.yy",
   },
   "parentObjectId":null,
   "persistent":false,

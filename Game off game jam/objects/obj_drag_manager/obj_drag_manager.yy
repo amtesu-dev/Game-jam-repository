@@ -9,8 +9,8 @@
   "name":"obj_drag_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"game",
-    "path":"folders/objects/game.yy",
+    "name":"UNUSED",
+    "path":"folders/UNUSED.yy",
   },
   "parentObjectId":null,
   "persistent":true,

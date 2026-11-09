@@ -29,8 +29,8 @@
   ],
   "name":"Menu",
   "parent":{
-    "name":"rooms",
-    "path":"folders/rooms.yy",
+    "name":"UNUSED",
+    "path":"folders/UNUSED.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

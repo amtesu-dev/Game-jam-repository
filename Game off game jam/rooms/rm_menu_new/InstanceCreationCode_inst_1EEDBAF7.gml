@@ -3,6 +3,20 @@ global.settings_layer = layer_get_id("lay_second");
 global.first_layer = layer_get_id("lay_first")
 //global.can_ex_code_first_layer = true
 //global.can_ex_code_settings = false
+
+
+
+ex_code_room_end = function()
+{
+	if room == rm_menu_new
+	{
+		draw_money = true
+		update_drag = true
+	}
+}
+
+
+
 //ex_code_step = function()
 //{
 	

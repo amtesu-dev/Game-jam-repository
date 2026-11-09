@@ -5,6 +5,8 @@ if (update_drag)
 }
 
 
+#region dev tools
+
 if keyboard_check_pressed(ord("R"))
 {
 	room_restart();
@@ -15,11 +17,18 @@ if keyboard_check_pressed(vk_escape)
 	game_restart()
 }
 
+//if keyboard_check_pressed(vk_lshift) and room_next(room) != -1
+//{
+//	room_goto_next()
+//}
 
-if (ex_code_step != undefined)
-{
-	ex_code_step();
-}
+//if keyboard_check_pressed(vk_subtract) //and room_previous(room) != -1
+//{
+//	room_goto_previous()
+//}
+
+#endregion
+ex_code_step();
 
 
 //var number = 23
