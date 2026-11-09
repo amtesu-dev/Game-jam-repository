@@ -13,3 +13,7 @@ so
 
 all i had to add was refrence the object when it's being created and then change the price variable for that 
 created object and use it there (in the LMB pressed event).
+[KINDA USELESS]
+
+so i figured it'd be better to... give stuff their prices? manually????? sometimes i'm just lazy, HOWEVER this will be useful
+for adding items that don't have a price variable set for them so maybe it could be useful?

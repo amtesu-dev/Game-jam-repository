@@ -22,5 +22,5 @@ this is a very slight issue and all it does is that it makes the objects snap wi
 
 [ISSUES]
 
-1) for whatever reason if you move your mouse too fast the object will keep following your mouse even if you let go of the LMB, doens't 
-cause any serious issues you can just click again and it'l let go.
+1) for whatever reason if you move your mouse too fast the object will keep following your mouse even if you let go of the LMB, doesn't 
+cause any serious issues you can just click again and it'll let go.

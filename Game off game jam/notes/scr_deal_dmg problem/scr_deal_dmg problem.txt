@@ -3,3 +3,5 @@
 the ex_no_hp (which is a function intended to ONLY run if the object that is taking damage has 0 hp) excutes
 regardless of the object's hp, and it's counterpart that destroys the object if it found the ex_no_hp as undefiened 
 or noone
+[DELETED]
+yeah fuck that function i'll just use the enemies' events for this
