@@ -1,3 +1,3 @@
 
 
-global.follow_mouse = true
+global.follow_mouse = false

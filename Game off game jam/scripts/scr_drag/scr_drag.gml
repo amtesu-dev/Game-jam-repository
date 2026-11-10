@@ -43,7 +43,8 @@ function scr_drag_update() {
 		var _target = dragged_id;
 		if (!instance_exists(dragged_id)) {
 			dragged_id = noone;
-		} else if (mouse_check_button(mb_left)) {
+		} else if (mouse_check_button(mb_left) and not _target.locked) 
+		{
 			var _grid_size = variable_global_exists("grid_size") ? global.grid_size : 64;
 
 			_target.x = mouse_x + drag_offset_x;
@@ -52,22 +53,35 @@ function scr_drag_update() {
 			_target.drag = true;
 
 			// if the object touch the gride, it goes to the closest square.
-			var _grid_hit = collision_rectangle(
+			
+				
+				_grid_hit = collision_rectangle(
 				_target.bbox_left, _target.bbox_top,
 				_target.bbox_right, _target.bbox_bottom,
-				obj_grid, false, true
+				global.grid_objects, false, true
 			);
-			if (_grid_hit != noone) {
+			if (
+				_grid_hit != noone
+				and point_in_rectangle(mouse_x,mouse_y,_target.bbox_left, _target.bbox_top,_target.bbox_right, _target.bbox_bottom)	//checks if the mouse is in the square
+			   ) 
+			{
 				_target.x = round(_target.x / _grid_size) * _grid_size;
 				_target.y = round(_target.y / _grid_size) * _grid_size;
+				
 			}
-		} else {
+		}
+		else if (_grid_hit != noone and not mouse_check_button_released(mb_left) )
+		{
+			// if the mouse LMB is released while the object is touching the nearest square, the object becomes "locked" (aka it can't be dragged again)
+			_target.locked = true
+		}
+		else 
+		{
 			_target.drag = false;
 			_target.depth = drag_start_depth;
 			dragged_id = noone;
 		}
 	}
 }
-
 
 

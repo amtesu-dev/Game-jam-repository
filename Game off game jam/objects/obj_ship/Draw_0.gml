@@ -1,3 +1,3 @@
 draw_self();
 
-draw_text(x,y,string(spd))
+draw_text_transformed(x,y,string(spd),3,3,0)

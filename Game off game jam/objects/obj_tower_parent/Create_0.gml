@@ -11,28 +11,44 @@ if (!variable_instance_exists(id, "drag")) {
 enemies = [obj_dude_enemy]	//no plan to use it
 friends = [obj_dude_friend]	//no plan to use it
 
+// bullet variabkes
 bullet = obj_bullet; 
 bullet_spd = 10;
 bullet_num = 1;
 
-
-radius = 128;
-
+//shooting variables
 can_shoot = true;
 spread_shoot = false;
 shooting = true;
 shoot_delay = 0;
 shoot_frames = 30;
 
+
+//target variables
 target_list = [obj_dude_enemy];
 target = noone;
 
 
-//ts_shoot = time_source_create(time_source_game,60,time_source_units_frames,ex_shoot())
-// no plan on using this timesource yet
 
+
+// direction variables
 image_follow_dir = false;
-
+def_dir = 0;	//the default direction the tower will be set to if there are no targets (or of the destination is undefiended)
+// so def_dir is kind of useless, still better left like this as it helps avoid errors
 dest = undefined; // the destination angle that the object will be using, make sure it is NEVER left unset (if you're using it, that is)
 
+
+// excute code
 ex_shoot = function(){}	//the code that is run whenever you shoot
+
+
+locked = false
+
+
+
+
+
+
+
+//ts_shoot = time_source_create(time_source_game,60,time_source_units_frames,ex_shoot())
+// no plan on using this timesource yet

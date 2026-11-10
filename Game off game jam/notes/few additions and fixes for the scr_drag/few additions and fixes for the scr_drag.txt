@@ -5,6 +5,10 @@ hey amtesu2 thanks for making the script, i tested it a bit and i found a few sm
 
 1) a locked state for the objects that get released into a grid, while locked you wouldn't be able to move the 
 objects around as you please after setting them up
+[DONE, by Hastiry]
+added an if statement that checks if the object is touching the closest sqaure and the LMB was released, if that happens it sets the "locked" variable
+to true and another previous if statement checks if the object that is being dragged doesn't have "locked" set as true
+in lines 73 abd 46 in the scr_drag as of writting this [2026/11/10]
 
 2) an occupied state for the grids, so that if an object is already occupying the grid you wouldn't be able to 
 put another object in that grid (as of what will happen to the object that can't get in that same grid, it'll be

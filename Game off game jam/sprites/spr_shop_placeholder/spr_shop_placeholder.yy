@@ -80,6 +80,9 @@
   },
   "swatchColours":null,
   "swfPrecision":0.5,
+  "tags":[
+    "dragable",
+  ],
   "textureGroupId":{
     "name":"Default",
     "path":"texturegroups/Default",
