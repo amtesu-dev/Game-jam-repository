@@ -1,10 +1,17 @@
 {
   "$GMObject":"",
   "%Name":"obj_tower_2",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_tower_2",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_parent","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"propertyId":{"name":"bullet_dmg","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_parent","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"propertyId":{"name":"bullet_spd","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_parent","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"propertyId":{"name":"name","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"tower2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_parent","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"propertyId":{"name":"radius","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"180",},
+  ],
   "parent":{
     "name":"towers",
     "path":"folders/objects/units/towers.yy",
@@ -30,7 +37,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_tower2",
+    "path":"sprites/spr_tower2/spr_tower2.yy",
+  },
   "spriteMaskId":null,
+  "tags":[
+    "dragable",
+  ],
   "visible":true,
 }

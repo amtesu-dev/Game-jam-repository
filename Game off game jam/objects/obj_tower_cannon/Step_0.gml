@@ -1,7 +1,6 @@
 event_inherited();
 
 cannon_dir = direction
-image_angle = cannon_dir
 
 if (keyboard_check_pressed(vk_space)) bullet_num ++
  

@@ -1,7 +1,7 @@
 draw_self()
 
-item = item_num - 1
-var spr = array_items[item].sprite_index
+if (item_asset == noone) spr = array_items[item].sprite_index
+else spr = item_asset.sprite_index
 
 draw_sprite(spr,-1,x,y)
 	

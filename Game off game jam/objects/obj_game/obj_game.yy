@@ -32,6 +32,7 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"draw_money","filters":[],"listItems":[],"multiselect":false,"name":"draw_money","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varDescription":"whether the object draws the money you have or not","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"update_drag","filters":[],"listItems":[],"multiselect":false,"name":"update_drag","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"show_dev_tools","filters":[],"listItems":[],"multiselect":false,"name":"show_dev_tools","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

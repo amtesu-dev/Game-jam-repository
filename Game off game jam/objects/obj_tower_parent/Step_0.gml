@@ -1,12 +1,8 @@
 
-var dir = direction
-
-
-
-
 
 if (drag) can_shoot = false
 //else can_shoot = true
+
 
 
 
@@ -109,13 +105,12 @@ if (can_shoot)
 	
 	
 	
-	if (dest == undefined)	dest = def_dir
+	dest ??= def_dir;
 	// if the destination was still undefined by the time it gets here it's set to the "def_dir" variable
 
-	var diff = angle_difference(dest,dir)
+	var diff = angle_difference(dest,direction)
 	direction += diff * 0.1
 
 	if (image_follow_dir) image_angle = direction
-	
 
 #endregion

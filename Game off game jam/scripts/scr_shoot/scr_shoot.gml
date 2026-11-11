@@ -2,15 +2,18 @@
 
 
 
-function func_shoot (bullet,bullet_spd,bullet_dmg,tower_dir,x_pos,y_pos)
+function func_shoot (bullet,bullet_spd,bullet_dmg,bullet_depth,tower_dir,x_pos,y_pos)
 {
-	instance_create_layer(x,y,"lay_bullets",bullet,{
-			direction: tower_dir,
-			image_angle: tower_dir,
-			speed: bullet_spd,
-			dmg: bullet_dmg,
-			x: x_pos ,
-			y: y_pos
+	
+	var dep = -10	// the depth variable, planning on using it later 
+	instance_create_depth(x,y,dep,bullet,
+			{
+				direction: tower_dir,
+				image_angle: tower_dir,
+				speed: bullet_spd,
+				dmg: bullet_dmg,
+				x: x_pos ,
+				y: y_pos
 			})
 	
 }
