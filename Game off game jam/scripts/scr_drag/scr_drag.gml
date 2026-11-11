@@ -70,7 +70,7 @@ function scr_drag_update() {
 				
 			}
 		}
-		else if (_grid_hit != noone and not mouse_check_button_released(mb_left) )
+		else if (_grid_hit != noone and mouse_check_button_released(mb_left) )
 		{
 			// if the mouse LMB is released while the object is touching the nearest square, the object becomes "locked" (aka it can't be dragged again)
 			_target.locked = true
