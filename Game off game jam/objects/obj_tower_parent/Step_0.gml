@@ -88,7 +88,7 @@ if (can_shoot)
 	else 
 	{
 		if (not instance_exists(target) or not point_in_circle(target.x,target.y,x,y,radius))
-		// checks if the target doesn't exit or if the target is within range
+		// checks if the target doesn't exist or if the target is within range
 		{
 			target = noone;
 		}
@@ -102,9 +102,8 @@ if (can_shoot)
 	{
 		dest = point_direction(x,y,target.x,target.y)
 	}
-	
-	
-	
+
+
 	dest ??= def_dir;
 	// if the destination was still undefined by the time it gets here it's set to the "def_dir" variable
 

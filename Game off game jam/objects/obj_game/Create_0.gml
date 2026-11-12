@@ -47,11 +47,11 @@ enum LAYER
 //}
 
 
-layer_inst = layer_get_id("lay_instances");
 //layer_game = layer_get_id("lay_game");
 //layer_water = layer_get_id("lay_water");
-
 //inst_layer = layer_get_id("lay_instances");
+
+layer_inst = layer_get_id("lay_instances");
 layer_water = layer_create(100,"lay_water");
 layer_game = layer_create(0,"lay_game");
 

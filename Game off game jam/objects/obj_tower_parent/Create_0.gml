@@ -38,7 +38,7 @@ target = noone;
 //i'm leaving this here incase i remember anything about it please forget about this comment 
 //(if you're not me that is)
 
-def_dir = 0;	//the default direction the tower will be set to if there are no targets (or of the destination is undefiended)
+def_dir = 100;	//the default direction the tower will be set to if there are no targets (or of the destination is undefiended)
 // so def_dir is kind of useless, still better left like this as it helps avoid errors
 dest = undefined; // the destination angle that the object will be using, make sure it is NEVER left unset (if you're using it, that is)
 
