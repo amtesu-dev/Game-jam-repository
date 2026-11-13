@@ -1,4 +1,6 @@
 
+x = 0
+y = 0
 global.points = 5000
 
 

@@ -8,8 +8,8 @@
   "name":"obj_grid",
   "overriddenProperties":[],
   "parent":{
-    "name":"game",
-    "path":"folders/objects/game.yy",
+    "name":"group1",
+    "path":"folders/objects/game/group1.yy",
   },
   "parentObjectId":null,
   "persistent":false,

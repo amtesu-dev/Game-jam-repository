@@ -1,4 +1,9 @@
 
+
+//x = VIEW_X
+//y = VIEW_Y
+
+
 if (update_drag)
 {
 	scr_drag_update(); //update the dragging process
