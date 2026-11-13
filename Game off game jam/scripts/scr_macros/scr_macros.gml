@@ -1,6 +1,6 @@
 
 // camera values
-#macro BASE_W 1980
+#macro BASE_W 1920
 #macro BASE_H 1080
 #macro BASE_ASPECT (BASE_W / BASE_H)
 

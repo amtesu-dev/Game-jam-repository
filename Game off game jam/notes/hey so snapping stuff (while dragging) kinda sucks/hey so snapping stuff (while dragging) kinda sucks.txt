@@ -1,0 +1,14 @@
+
+
+soooooooo snapping stuff is cool and all but it uhhhhh works only in relation to the room but like 
+I DON'T want it to snap to the room's position i want it to just snap into the grid objects' position
+i think i'll end up just making a new script other than the scr_drag, though i'll probobaly use some of it's code
+if anyone can help with this stuff i'll be grateful
+
+thanks chat, don't forget to like share and subscribe
+
+
+[UPDATED]
+the scr_drag was updated I'd suggest checking the changes in it
+
+

@@ -9,7 +9,7 @@ dx += 16;
 dy += 16;
 
 
-draw_set_font(Font1);
+draw_set_font(fnt_ui);
 
 var _name = messages[current_message].name;
 draw_text(dx,dy,_name);

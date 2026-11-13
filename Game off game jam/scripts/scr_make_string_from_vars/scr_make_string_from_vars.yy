@@ -6,7 +6,7 @@
   "name":"scr_make_string_from_vars",
   "parent":{
     "name":"dev tools",
-    "path":"folders/scripts/functions/dev tools.yy",
+    "path":"folders/scripts/dev tools.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

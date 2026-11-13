@@ -1,6 +1,5 @@
 
-if keyboard_check(vk_space) target_is_pos = false
-else target_is_pos = true
+if keyboard_check_pressed(vk_space) target_is_pos = !target_is_pos
 
 if target_is_pos
 {

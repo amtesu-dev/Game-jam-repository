@@ -3,36 +3,44 @@
 if (drag) can_shoot = false
 //else can_shoot = true
 
+collision_point(x,y,global.grid_objects,false,true)
+
+
+//if ()
+//{
+	
+	
+//}
 
 
 
 if (shoot_delay != 0 ) shoot_delay --;
 
 
-if (shoot_delay <= 0) shooting = true
-else shooting = false
+if (shoot_delay <= 0) shooting = true;
+else shooting = false;
 
 if (can_shoot)
 {
 
 	if (shooting) //and (shoot_delay <= 0)
 	{
-		ex_shoot()
-		
-		shoot_delay = shoot_frames
-		shooting = false
+		ex_shoot();
+		shoot_delay = shoot_frames;
+		shooting = false;
 	}
 }
 
 
 #region setting the target
 	#region setting the target for the cannon to look at
+	// USELEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEESS
 
-		var get_nearest_target = function(element,index)
-		{
-			instance_nearest(element.x,element.y,element)
+		//var get_nearest_target = function(element,index)
+		//{
+		//	instance_nearest(element.x,element.y,element)
 	
-		}
+		//}
 
 		// show_debug_message(string(array_foreach(target_list,get_nearest_target)))
 
@@ -47,6 +55,13 @@ if (can_shoot)
 	
 		//}
 
+	// USELEEEEEEEEEEEEEEEEEEEEEEEEEEEEESS
+	//var get_nearest = function() //attempt to retrieve the nearest object in the target_list array
+	//{
+	//	for (var i = -1;i >= array_length(target_list) - 1;i ++)
+	//	{
+	//	}
+	//}
 
 
 
@@ -65,25 +80,13 @@ if (can_shoot)
 	#endregion
 
 
-	var get_nearest = function() //attempt to retrieve the nearest object in the target_list array
-	{
-		for (var i = -1;i >= array_length(target_list) - 1;i ++)
-		{
-		
-		
-		}
-
-	}
-
-
-
-	target_nearest = instance_nearest(x,y,obj_dude_enemy)
+	_target_nearest = instance_nearest(x,y,obj_dudes_parent)
 	
 
 
-	if (target == noone )
+	if (target == noone)
 	{
-		target = collision_circle(x,y,radius,target_nearest,false,true);	//sets a target if it's within range
+		target = collision_circle(x,y,radius,_target_nearest,false,true);	//sets a target if it's within range
 	}
 	else 
 	{
@@ -94,22 +97,26 @@ if (can_shoot)
 		}
 	}
 
-	if (target == noone) can_shoot = false
-	else can_shoot = true
+	if (target == noone) can_shoot = false;
+	else can_shoot = true;
 
 
 	if (target != noone)
 	{
-		dest = point_direction(x,y,target.x,target.y)
+		dest = point_direction(x,y,target.x,target.y);
 	}
-
 
 	dest ??= def_dir;
 	// if the destination was still undefined by the time it gets here it's set to the "def_dir" variable
-
-	var diff = angle_difference(dest,direction)
-	direction += diff * 0.1
-
-	if (image_follow_dir) image_angle = direction
+	
+	var diff = angle_difference(dest,direction);
+	direction += diff * 0.1;
+	
+	
+	
+	if (image_follow_dir) image_angle = direction;
 
 #endregion
+
+
+

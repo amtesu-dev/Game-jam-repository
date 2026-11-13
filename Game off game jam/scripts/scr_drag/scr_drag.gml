@@ -1,8 +1,10 @@
 /// @function scr_drag_update
 ///// drag a instance above the mouse when the object have "dragable" tag.
 function scr_drag_update() {
-	var _mouse_pressed = mouse_check_button_pressed(mb_left);
-
+	var _mouse_pressed = mouse_check_button_pressed(mb_left),
+	_mouse_released = mouse_check_button_released(mb_left),
+	_grid_objs = global.grid_objects,
+	_grid_snap = global.grid_snap_global;
 	
 	//	Select an new target at click. Also respect drag:true used by the store
 	// to start moving an item early bought.
@@ -45,7 +47,7 @@ function scr_drag_update() {
 			dragged_id = noone;
 		} else if (mouse_check_button(mb_left) and not _target.locked) 
 		{
-			var _grid_size = variable_global_exists("grid_size") ? global.grid_size : 64;
+			_grid_size = variable_global_exists("grid_size") ? global.grid_size : 64;
 
 			_target.x = mouse_x + drag_offset_x;
 			_target.y = mouse_y + drag_offset_y;
@@ -58,11 +60,14 @@ function scr_drag_update() {
 				_grid_hit = collision_rectangle(
 				_target.bbox_left, _target.bbox_top,
 				_target.bbox_right, _target.bbox_bottom,
-				global.grid_objects, false, true
+				_grid_objs, false, true
 			);
+			_mouse_hit = collision_point(mouse_x,mouse_y,_grid_objs,false,true);
+			_mouse_in_grid_obj = point_in_rectangle(mouse_x,mouse_y,_target.bbox_left, _target.bbox_top,_target.bbox_right, _target.bbox_bottom)
 			if (
-				_grid_hit != noone
-				and point_in_rectangle(mouse_x,mouse_y,_target.bbox_left, _target.bbox_top,_target.bbox_right, _target.bbox_bottom)	//checks if the mouse is in the square
+				_grid_snap
+				and _grid_hit != noone
+				and _mouse_in_grid_obj	//checks if the mouse is in the square
 			   ) 
 			{
 				_target.x = round(_target.x / _grid_size) * _grid_size;
@@ -70,10 +75,11 @@ function scr_drag_update() {
 				
 			}
 		}
-		else if (_grid_hit != noone and mouse_check_button_released(mb_left) )
+		else if ((_grid_hit != noone and _grid_snap ) or (_mouse_hit != noone) and _mouse_released )
 		{
 			// if the mouse LMB is released while the object is touching the nearest square, the object becomes "locked" (aka it can't be dragged again)
-			_target.locked = true
+			_target.locked = true;
+			
 		}
 		else 
 		{

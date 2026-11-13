@@ -17,3 +17,8 @@ created object and use it there (in the LMB pressed event).
 
 so i figured it'd be better to... give stuff their prices? manually????? sometimes i'm just lazy, HOWEVER this will be useful
 for adding items that don't have a price variable set for them so maybe it could be useful?
+
+[I FUCKING DELETED IT ON ACCIDENT FUUUUUUUUUUUUUUUUUUCK]
+the line above speaks for itself, i currently have no wifi so this sucksi can't get the shop object anymore
+don't bother with this guys i just had to let it out
+-Hastiry

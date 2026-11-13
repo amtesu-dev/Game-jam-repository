@@ -1,2 +1,2 @@
 
-instance_destroy();
+collected = true

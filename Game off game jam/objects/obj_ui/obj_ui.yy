@@ -9,8 +9,8 @@
   "name":"obj_ui",
   "overriddenProperties":[],
   "parent":{
-    "name":"system",
-    "path":"folders/objects/game/system.yy",
+    "name":"ui",
+    "path":"folders/objects/game/ui.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -3,8 +3,8 @@
   "%Name":"need help with script",
   "name":"need help with script",
   "parent":{
-    "name":"need help something",
-    "path":"folders/notes/need help something.yy",
+    "name":"need help with something",
+    "path":"folders/notes/need help with something.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

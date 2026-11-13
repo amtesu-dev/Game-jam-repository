@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_msg",
+  "%Name":"scr_draw_set",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_msg",
+  "name":"scr_draw_set",
   "parent":{
-    "name":"dev tools",
-    "path":"folders/scripts/dev tools.yy",
+    "name":"functions",
+    "path":"folders/scripts/functions.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
