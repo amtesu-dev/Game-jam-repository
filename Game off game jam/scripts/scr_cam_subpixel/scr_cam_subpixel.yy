@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_cam_subpixel",
   "parent":{
-    "name":"functions",
-    "path":"folders/scripts/functions.yy",
+    "name":"camera",
+    "path":"folders/scripts/functions/camera.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

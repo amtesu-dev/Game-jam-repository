@@ -1,10 +1,10 @@
 
+//if not (cond_target_exits()) exit;
+//mthd_target_set();
+
+
 if (not instance_exists(camera_target) and not target_is_pos) exit;
 
-
-//var _view_w = camera_get_view_width(view_camera[0]);
-//var _view_h = camera_get_view_height(view_camera[0]);
-// width and height of the camera
 
 if (not target_is_pos)
 {
@@ -26,9 +26,7 @@ else
 	_target_x = _x - VIEW_W / 2;
 	_target_y = _y - VIEW_H / 2;
 }
- 
-//var _current_view_x = camera_get_view_x(view_camera[0]);
-//var _current_view_y = camera_get_view_y(view_camera[0]);
+
 
 _target_x = lerp(VIEW_X,_target_x,cam_perc);
 _target_y = lerp(VIEW_Y,_target_y,cam_perc);
@@ -40,3 +38,4 @@ _target_y = clamp(_target_y,0,room_height - VIEW_H);
 
 camera_set_view_pos(VIEW,_target_x,_target_y);
 
+//zoom.apply();

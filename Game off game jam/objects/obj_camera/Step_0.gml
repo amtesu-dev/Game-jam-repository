@@ -8,3 +8,5 @@ if target_is_pos
 	if keyboard_check(vk_right) _x += 5
 	if keyboard_check(vk_left) _x -= 5
 }
+
+//zoom.change();

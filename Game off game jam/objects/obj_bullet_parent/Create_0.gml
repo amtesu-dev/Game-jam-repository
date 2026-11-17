@@ -1,6 +1,5 @@
 
-array_has_hp = tag_get_asset_ids("has_hp",asset_object)
-
+#region insane person talks to himself
 //dmg = 1	// this value doesn't get used and is only here to prevent errors
 // note: this fucker caused some bugs, until YOU (which is probably just me rereading this code) encoutner 
 // a bug, DON'T touch it
@@ -17,6 +16,15 @@ array_has_hp = tag_get_asset_ids("has_hp",asset_object)
 // siencerly NOT fuck you
 // you may do that yourself
 // begone code boy
+// or girl
+// or something
+
+// note from future: hey what was the bug again? i kind of forgot
+// man should've actually said what the bug actually was instead of this
+// well i mean i can fuck around and find out
+// i won't though
+// not today
+#endregion
 
 destroy_bullet = false //set to true to destroy the bullet
 

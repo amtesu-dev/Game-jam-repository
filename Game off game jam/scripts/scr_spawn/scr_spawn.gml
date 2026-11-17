@@ -5,7 +5,7 @@ function func_spawn_obj(spawned_object,location_x,location_y,random_location,rnd
 {
 	// if you wish to make the random area a square leave either the x or y random coordinates as undefiend or noone
 	// "var_struct" should be set as undefiened if you don't want to use it
-	if rnd_min_y = noone or undefined and rnd_max_y = noone or undefined
+	if (rnd_min_y = undefined and rnd_max_y = undefined)
 	{
 		rnd_min_y = rnd_min_x
 		rnd_max_y = rnd_min_x

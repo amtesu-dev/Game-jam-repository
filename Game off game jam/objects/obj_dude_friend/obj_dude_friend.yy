@@ -10,7 +10,7 @@
   ],
   "parent":{
     "name":"enemies",
-    "path":"folders/objects/testing/enemies.yy",
+    "path":"folders/objects/units/enemies.yy",
   },
   "parentObjectId":{
     "name":"obj_dudes_parent",
@@ -38,5 +38,8 @@
     "path":"sprites/spr_friend/spr_friend.yy",
   },
   "spriteMaskId":null,
+  "tags":[
+    "has_hp",
+  ],
   "visible":true,
 }

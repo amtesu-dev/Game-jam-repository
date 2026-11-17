@@ -10,7 +10,7 @@
   ],
   "parent":{
     "name":"enemies",
-    "path":"folders/objects/testing/enemies.yy",
+    "path":"folders/objects/units/enemies.yy",
   },
   "parentObjectId":{
     "name":"obj_dudes_parent",

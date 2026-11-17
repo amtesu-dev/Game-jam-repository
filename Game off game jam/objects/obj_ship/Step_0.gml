@@ -70,6 +70,7 @@ speed = spd * spd_multiplier;
 
 var diff = angle_difference(dest,direction);
 
+
 direction += diff * turning_multiplier;
 
 

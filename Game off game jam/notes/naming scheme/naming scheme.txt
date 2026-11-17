@@ -1,0 +1,5 @@
+
+i won't go into extreme detail about the naming schemes but here are some that i came up with while working
+
+1) ex: excute
+2) dt: dev tool

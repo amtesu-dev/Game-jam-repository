@@ -9,8 +9,8 @@
   "name":"obj_spawn_location",
   "overriddenProperties":[],
   "parent":{
-    "name":"UNUSED",
-    "path":"folders/UNUSED.yy",
+    "name":"enemies",
+    "path":"folders/objects/units/enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -37,8 +37,5 @@
     "path":"sprites/spr_spawn_location/spr_spawn_location.yy",
   },
   "spriteMaskId":null,
-  "tags":[
-    "UNUSED",
-  ],
   "visible":true,
 }

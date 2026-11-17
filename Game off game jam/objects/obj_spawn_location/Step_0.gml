@@ -1,13 +1,16 @@
 
+
 direction = image_angle
 
 
 spawn_frames = random_range(20,100)
 
-var dir = spawner_dir
+var dir = image_angle
 
-if (evil_spawns) dude = obj_dude_enemy
-else dude = obj_dude_friend
+dude = choose(obj_dude_enemy,obj_dude_sad,obj_dude_friend)
+
+//if (evil_spawns) dude = obj_dude_enemy
+//else dude = obj_dude_friend
 
 if (spawn_timer <= 0)
 {

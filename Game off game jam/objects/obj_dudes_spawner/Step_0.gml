@@ -114,6 +114,7 @@ else spawn_delay --
 // i need to figure out how to make the time source keep it's random values and update it without 
 // overloading the memory with time sources due to them being created every step
 
+
 ////if not time_source_exists(ts_spawn_dudes)
 ////{
 //	var ts_spawn_dudes = time_source_create(time_source_game,dudes_spawn_delay,time_source_units_frames,spawn_obj,[

@@ -5,7 +5,7 @@
 //var spawn_evil_dudes = true
 
 //	#region random values
-//	var dude = obj_enemy
+//	var dude = obj_dude_enemy
 //	var rnd = random(1)
 //	var rnd_dudes = random(1)
 //	#endregion
@@ -26,20 +26,20 @@
 //{
 //	if rnd_dudes <= 0.5 
 //	{
-//		dude = obj_enemy
+//		dude = obj_dude_enemy
 //	}
 //	else
 //	{
-//		dude = obj_friend
+//		dude = obj_dude_friend
 //	}
 //}
 //else if spawn_nice_dudes
 //{
-//	dude = obj_friend
+//	dude = obj_dude_friend
 //}
 //else if spawn_evil_dudes
 //{
-//	dude = obj_enemy
+//	dude = obj_dude_enemy
 //}
 //#endregion
 
@@ -94,7 +94,8 @@
 
 ////if not time_source_exists(ts_spawn_dudes)
 ////{
-//	 global.ts_spawn_dudes = time_source_create(time_source_game,10,time_source_units_frames,spawn_obj,[
+//	 global.ts_spawn_dudes = time_source_create(time_source_game,10,time_source_units_frames,func_spawn_obj,
+//	 [
 //	dude,
 //	x_pos,
 //	y_pos,
