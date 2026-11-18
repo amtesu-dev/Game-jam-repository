@@ -22,3 +22,19 @@ for adding items that don't have a price variable set for them so maybe it could
 the line above speaks for itself, i currently have no wifi so this sucksi can't get the shop object anymore
 don't bother with this guys i just had to let it out
 -Hastiry
+
+[I RECREATED IT FROM SCRATCH (not the app)]
+the above line may seem confusing and missleading at first but i'll walk you through what it means step by step so you may understand
+what it could possibly stand for.
+
+introducing obj_shop_2 the sequal (and cooler) version of obj_shop, this one -unlike it's succesor- is incomprehinsibly (was that spellet right?)
+betterer; cause you see, it does fucking nothing diffrent, it's just more costumisable (that's DIFFENITLY spelt wrong).
+
+so yeah, fuck obj_shop (figuritavley) i don't need it anymore
+
+-NOT Hastiry (???????????)
+
+then who the FUCK wrote this??????????????? (??????????)
+
+-Mystery man
+

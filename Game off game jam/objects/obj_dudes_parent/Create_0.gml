@@ -9,6 +9,7 @@ can_draw = false;
 
 _set_target = false
 
+hp_max = hp
 //mthd_set_enemy_target = function()
 //{
 //	if cond_set_target

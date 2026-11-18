@@ -15,5 +15,9 @@ global.collect_x = 0;
 global.collect_y = 0;
 // the x and y position where the coins would be collected to, these values are place holders and are NOT meant to be used (probobaly, they're both 0 at the moment) 
 
-global.array_enemies = [obj_dude_enemy,obj_dude_sad]
+global.array_enemies = [obj_dude_enemy,obj_dude_sad,obj_dude_friend];
+
+
+global.array_items = [obj_tower_cannon,obj_tower_2,obj_tower_cannon,obj_tower_2,obj_tower_2];
+
 

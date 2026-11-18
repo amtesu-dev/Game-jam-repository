@@ -29,7 +29,8 @@ target_list = [obj_dude_enemy];
 target = noone;
 
 
-
+// grid variables
+_my_grid = noone;
 
 // direction variables
 

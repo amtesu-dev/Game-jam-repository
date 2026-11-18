@@ -1,0 +1,14 @@
+
+
+you can't draw the sprite of an object if said object doesn't already exist in the room?????
+[FIXED]
+i think i figured it out, i used the "object_draw_sprite" function and works OK.
+
+[NEW PROBLEM]
+
+names and prices for whatever reason REFUSE to be set in the create event despite how it used to work just fine
+
+[FIXED]
+
+i just threw the functions that change these values in the draw event and mthd_buy and hoped for the best.
+though 

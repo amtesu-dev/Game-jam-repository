@@ -26,7 +26,7 @@ func_draw_set(1,c_white,
 		(
 			coin_pos_x + coin_w,
 			coin_pos_y,
-			":" + string(global.points),
+			": " + string(global.points),
 			0,
 			200,
 			2.5,

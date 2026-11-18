@@ -5,8 +5,7 @@
   "managed":true,
   "name":"obj_dude_friend",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dudes_parent","path":"objects/obj_dudes_parent/obj_dudes_parent.yy",},"propertyId":{"name":"evil","path":"objects/obj_dudes_parent/obj_dudes_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dudes_parent","path":"objects/obj_dudes_parent/obj_dudes_parent.yy",},"propertyId":{"name":"added_points","path":"objects/obj_dudes_parent/obj_dudes_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_dudes_parent","path":"objects/obj_dudes_parent/obj_dudes_parent.yy",},"propertyId":{"name":"hp","path":"objects/obj_dudes_parent/obj_dudes_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
   ],
   "parent":{
     "name":"enemies",

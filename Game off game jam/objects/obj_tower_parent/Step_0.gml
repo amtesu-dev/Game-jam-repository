@@ -1,16 +1,14 @@
 
 
 if (drag) can_shoot = false
-//else can_shoot = true
 
 //collision_point(x,y,global.grid_objects,false,true)
 
-
-//if ()
-//{
-	
-	
-//}
+if (_my_grid != noone and instance_exists(_my_grid))
+{
+	x = _my_grid.x;
+	y = _my_grid.y;
+}
 
 
 
