@@ -2,6 +2,6 @@ order = global.spawner_order ++;
 
 global.spawner_order ++;
 
-dir = direction
+spawner_dir = direction
 
 spawn_timer = 0

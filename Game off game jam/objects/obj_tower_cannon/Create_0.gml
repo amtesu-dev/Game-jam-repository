@@ -2,8 +2,11 @@ event_inherited();
 
 cannon_dir = direction
 
-image_follow_dir = true
-ex_shoot = function() { switch (bullet_num)
+
+
+ex_shoot = function() 
+{
+		switch (bullet_num)
 		{
 			
 			case 0:
@@ -12,7 +15,7 @@ ex_shoot = function() { switch (bullet_num)
 			
 			case 1:
 				
-				func_shoot(bullet,bullet_spd,bullet_dmg,cannon_dir,x,y)
+				func_shoot(bullet,bullet_spd,bullet_dmg,bullet_depth,cannon_dir,x,y)
 				
 			break;
 			
@@ -24,13 +27,13 @@ ex_shoot = function() { switch (bullet_num)
 			
 				if (direction >= 0 and direction <= 180) or (direction >= 180 and direction <= 270)
 				{
-					func_shoot(bullet,bullet_spd,bullet_dmg,cannon_dir,x,y + gap)
-					func_shoot(bullet,bullet_spd,bullet_dmg,cannon_dir,x,y - gap)
+					func_shoot(bullet,bullet_spd,bullet_dmg,bullet_depth,cannon_dir,x,y + gap)
+					func_shoot(bullet,bullet_spd,bullet_dmg,bullet_depth,cannon_dir,x,y - gap)
 				}
 				else if (direction >= 90 and direction <= 270 ) or (direction >= 270 and direction <= 360)
 				{
-					func_shoot(bullet,bullet_spd,bullet_dmg,cannon_dir,x + gap,y)
-					func_shoot(bullet,bullet_spd,bullet_dmg,cannon_dir,x - gap,y)	
+					func_shoot(bullet,bullet_spd,bullet_dmg,bullet_depth,cannon_dir,x + gap,y)
+					func_shoot(bullet,bullet_spd,bullet_dmg,bullet_depth,cannon_dir,x - gap,y)	
 				}
 			break;
 			
@@ -47,16 +50,16 @@ ex_shoot = function() { switch (bullet_num)
 				var dir = cannon_dir
 				
 				
-				func_shoot(bullet,bullet_spd,bullet_dmg,dir,x,y)
+				func_shoot(bullet,bullet_spd,bullet_dmg,bullet_depth,dir,x,y)
 				
 				dir = dir1
 				
-				func_shoot(bullet,bullet_spd,bullet_dmg,dir,x,y)
+				func_shoot(bullet,bullet_spd,bullet_dmg,bullet_depth,dir,x,y)
 				
 		
 				dir = dir2
 				
-				func_shoot(bullet,bullet_spd,bullet_dmg,dir,x,y)
+				func_shoot(bullet,bullet_spd,bullet_dmg,bullet_depth,dir,x,y)
 				
 	
 			break;

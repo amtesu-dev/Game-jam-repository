@@ -1,14 +1,10 @@
 
-var dir = direction
-
-
-
-
 
 if (drag) can_shoot = false
 //else can_shoot = true
 
-locked = true
+
+
 
 if (shoot_delay != 0 ) shoot_delay --;
 
@@ -62,7 +58,6 @@ if (can_shoot)
 		if keyboard_check_pressed(ord("M")) // set the target as the mouse
 		{
 			global.follow_mouse = not global.follow_mouse
-			show_message(string(global.follow_mouse))
 		}
 
 		if (global.follow_mouse) dest = point_direction(x,y,mouse_x,mouse_y)
@@ -93,7 +88,7 @@ if (can_shoot)
 	else 
 	{
 		if (not instance_exists(target) or not point_in_circle(target.x,target.y,x,y,radius))
-		// checks if the target doesn't exit or if the target is within range
+		// checks if the target doesn't exist or if the target is within range
 		{
 			target = noone;
 		}
@@ -107,20 +102,14 @@ if (can_shoot)
 	{
 		dest = point_direction(x,y,target.x,target.y)
 	}
-	
-	if (dest != undefined)
-	{
-		var diff = angle_difference(dest,dir)
-		direction += diff * 0.1
-	}
-	else
-	{
-		dest = 0
-		var diff = angle_difference(dest,dir)
-		direction += diff * 0.1
-	}
+
+
+	dest ??= def_dir;
+	// if the destination was still undefined by the time it gets here it's set to the "def_dir" variable
+
+	var diff = angle_difference(dest,direction)
+	direction += diff * 0.1
 
 	if (image_follow_dir) image_angle = direction
-	
 
 #endregion
