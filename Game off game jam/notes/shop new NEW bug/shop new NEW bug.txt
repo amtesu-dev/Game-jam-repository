@@ -1,0 +1,4 @@
+
+the obj_shop_2 sometimes doesn't detect the amount of points being LESS than the price of the thing being baught
+i knew we should've gone with a simpler game than THIS 
+WHY IS MY VERY FIRST ACTUAL GAME A TOWER DEFESNE, I DON'T EVEN LIKE THIS GENRE THAT MUCH ;-;

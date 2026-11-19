@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_shop_ui",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_shop_ui",
+  "parent":{
+    "name":"shop",
+    "path":"folders/scripts/functions/shop.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

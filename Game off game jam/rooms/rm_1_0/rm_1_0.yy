@@ -49,8 +49,8 @@
     {"name":"inst_52758B18","path":"rooms/rm_1_0/rm_1_0.yy",},
     {"name":"inst_320C1770","path":"rooms/rm_1_0/rm_1_0.yy",},
     {"name":"inst_3547BF27","path":"rooms/rm_1_0/rm_1_0.yy",},
+    {"name":"inst_4AD49663","path":"rooms/rm_1_0/rm_1_0.yy",},
     {"name":"inst_703A87CF","path":"rooms/rm_1_0/rm_1_0.yy",},
-    {"name":"inst_692AD5B1","path":"rooms/rm_1_0/rm_1_0.yy",},
     {"name":"inst_31A948E2","path":"rooms/rm_1_0/rm_1_0.yy",},
   ],
   "isDnd":false,
@@ -109,8 +109,8 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_shop_2","path":"objects/obj_shop_2/obj_shop_2.yy",},"propertyId":{"name":"item","path":"objects/obj_shop_2/obj_shop_2.yy",},"resource":{"name":"obj_tower_2","path":"objects/obj_tower_2/obj_tower_2.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_tower_2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":512.0,"y":704.0,},
         {"$GMRInstance":"v4","%Name":"inst_703A87CF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_703A87CF","objectId":{"name":"obj_tower_cannon","path":"objects/obj_tower_cannon/obj_tower_cannon.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":896.0,"y":704.0,},
-        {"$GMRInstance":"v4","%Name":"inst_692AD5B1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_692AD5B1","objectId":{"name":"obj_tower_2","path":"objects/obj_tower_2/obj_tower_2.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":576.0,},
         {"$GMRInstance":"v4","%Name":"inst_31A948E2","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_31A948E2","objectId":{"name":"obj_tower_cannon","path":"objects/obj_tower_cannon/obj_tower_cannon.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":384.0,"y":576.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4AD49663","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4AD49663","objectId":{"name":"obj_ui_shop","path":"objects/obj_ui_shop/obj_ui_shop.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":0.0,},
       ],"layers":[],"name":"lay_instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"lay_bullets","depth":500,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"lay_bullets","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4290379776,"depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
@@ -118,7 +118,7 @@
   "name":"rm_1_0",
   "parent":{
     "name":"rooms",
-    "path":"folders/rooms.yy",
+    "path":"folders/paths/rooms.yy",
   },
   "parentRoom":{
     "name":"rm_1",

@@ -1,5 +1,9 @@
 
+_price = variable_instance_get(item,"price")
+_name = variable_instance_get(item,"tower_name");
 
+mthd_set_name();
+mthd_set_price();
 
 if (global.points < item_price)
 {

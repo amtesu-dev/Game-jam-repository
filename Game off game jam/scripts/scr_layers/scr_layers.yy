@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_layers",
   "parent":{
-    "name":"functions",
-    "path":"folders/scripts/functions.yy",
+    "name":"other",
+    "path":"folders/scripts/functions/other.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

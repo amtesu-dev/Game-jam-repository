@@ -18,7 +18,7 @@
   "name":"rm_ui_test",
   "parent":{
     "name":"rooms",
-    "path":"folders/rooms.yy",
+    "path":"folders/paths/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

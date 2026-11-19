@@ -75,7 +75,8 @@ function scr_drag_update() {
 				
 			}
 		}
-		else if ((_grid_hit != noone and _grid_snap ) or (_mouse_hit != noone) and _mouse_released )
+		else if ((variable_instance_exists(self,"_grid_hit") and _grid_hit != noone and _grid_snap )
+		or variable_instance_exists(self,"_mouse_hit") and (_mouse_hit != noone) and _mouse_released )
 		{
 			// if the mouse LMB is released while the object is touching the nearest square, the object becomes "locked" (aka it can't be dragged again)
 			_target.locked = true;

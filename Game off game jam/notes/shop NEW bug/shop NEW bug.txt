@@ -12,3 +12,21 @@ names and prices for whatever reason REFUSE to be set in the create event despit
 
 i just threw the functions that change these values in the draw event and mthd_buy and hoped for the best.
 though 
+
+[UPDATE]
+
+so the name just doesn't work AT ALL if the object that is being drawn doesn't already exist in the room
+WHAT IS THIIIIIIIIIIIIIIIIIIIS????????
+I DON'T GET ITTTTTTTTTT HOW DOES THIS EVEN HAPPEN??????????????
+
+AND THE PRICE TOO??????????????
+the price is also not set until the object already exists in the room
+
+can someone help me figure out how this is even happening??
+
+[UPDATE]
+I CAN'T FUCKING FIX IT, WHAT THE FUUUUUUUUUUUUUUUUCK IS THIS PROBLEM???????????????????????????
+i can't figure out WHAT is casuing, which is making me go NUUUUUUUUUUUUUUUUUUTS
+HOOOOOOOOOOOOOOOOOOW DOES THIS HAPPEEEEEEEEEEEEEEEEEEEEEEEEEEEN!!!?!??!!!!?!?!????!?!??!??????????????
+I should probaboly just find something else to work on i'm not getting anywhere trying to fix this 
+
