@@ -1,5 +1,20 @@
 draw_self();
 
+if global.HarbourHp > 75
+{
+	HpSprite = Spr_HarbHealth1
+}
+else if global.HarbourHp >= 25
+{
+	HpSprite = Spr_HarbHealth1_1
+}
+else if global.HarbourHp < 25
+{
+	HpSprite = Spr_HarbHealth1_2
+}
+
+
+
 draw_set_font(fnt_ui);
 
 func_draw_set(1,c_white,
@@ -36,6 +51,10 @@ func_draw_set(1,c_white,
 	
 	global.collect_x = coin_pos_x
 	global.collect_y = coin_pos_y
+	
+	
+	draw_sprite(HpSprite, 0, x + 500, 0)
+	draw_text(x + 600, 50, "Hp: " + string(global.HarbourHp))
 	
 	}
 )

@@ -119,8 +119,8 @@
   ],
   "name":"rm_1",
   "parent":{
-    "name":"rooms",
-    "path":"folders/paths/rooms.yy",
+    "name":"UNUSED",
+    "path":"folders/UNUSED.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

@@ -30,7 +30,7 @@
   "name":"rm_path_test",
   "parent":{
     "name":"rooms",
-    "path":"folders/paths/rooms.yy",
+    "path":"folders/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
