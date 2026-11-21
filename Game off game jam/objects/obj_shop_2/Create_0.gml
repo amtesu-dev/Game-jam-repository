@@ -3,9 +3,6 @@
 _shop_slot = undefined;
 _item_bought = noone
 
-var_struct = {
-	drag: true
-}
 
 _price = variable_instance_get(item,"price")
 _name = variable_instance_get(item,"tower_name");
@@ -35,8 +32,12 @@ cond_item_exists = function()
 }
 mthd_buy = function()
 {
-	_item_bought = instance_create_layer(x,y,creation_layer,item,var_struct)
-	global.points -= item_price;
+	with instance_create_layer(x, y, creation_layer, Obj_Tower_buy)
+	{
+		type = other.item
+		price = other.item_price
+		creation_layer = other.creation_layer
+	}
 }
 
 
