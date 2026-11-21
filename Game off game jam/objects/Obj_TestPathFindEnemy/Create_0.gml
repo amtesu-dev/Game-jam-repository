@@ -5,4 +5,4 @@ path = path_add()
 PathTimerDuration = 20
 PathTimer = PathTimerDuration
 
-Spd = 1
+Spd = 3
