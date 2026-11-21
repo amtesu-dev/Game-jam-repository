@@ -32,6 +32,10 @@ cond_item_exists = function()
 }
 mthd_buy = function()
 {
+	
+	var _inst = instance_create_layer(mouse_x,mouse_y,creation_layer,item,{drag: true})
+	
+	
 	//with instance_create_layer(x, y, creation_layer, obj_tower_buy)
 	//{
 	//	type = other.item
