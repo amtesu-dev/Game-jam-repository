@@ -32,12 +32,13 @@ cond_item_exists = function()
 }
 mthd_buy = function()
 {
-	with instance_create_layer(x, y, creation_layer, Obj_Tower_buy)
-	{
-		type = other.item
-		price = other.item_price
-		creation_layer = other.creation_layer
-	}
+	//with instance_create_layer(x, y, creation_layer, obj_tower_buy)
+	//{
+	//	type = other.item
+	//	price = other.item_price
+	//	creation_layer = other.creation_layer
+	//}
+	
 }
 
 

@@ -8,8 +8,8 @@
   "name":"obj_button_exit",
   "overriddenProperties":[],
   "parent":{
-    "name":"UNUSED",
-    "path":"folders/UNUSED.yy",
+    "name":"system",
+    "path":"folders/objects/game/system.yy",
   },
   "parentObjectId":null,
   "persistent":false,

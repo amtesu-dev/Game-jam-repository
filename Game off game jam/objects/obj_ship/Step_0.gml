@@ -1,10 +1,15 @@
 
 
+//tower.x = x
+//tower.y = y
+//tower.dest = direction + 90
 
-tower.x = x
-tower.y = y
-tower.dest = direction + 90
 
+//var _arr = ap_ship[floor(image_index)]
+
+//tower.x = _arr[0];
+//tower.y = _arr[1];
+//tower.image_angle = _arr[2];
 
 #region movement
 	if keyboard_check(vk_left)
@@ -49,4 +54,27 @@ tower.dest = direction + 90
 
 
 
-;
+array_foreach(arr_attached,function(_item)
+{
+	
+	var _x = lengthdir_x(_item.leng,_item.dir + image_angle);
+	var _y = lengthdir_y(_item.leng,_item.dir + image_angle);
+
+	_item.inst.x = x + _x
+	_item.inst.y = y + _y
+	
+	
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
