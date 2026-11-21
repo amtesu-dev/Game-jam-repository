@@ -1,4 +1,7 @@
-
+if keyboard_check(vk_control) && keyboard_check_pressed(ord("H"))
+{
+	show_debug_overlay(!is_debug_overlay_open())
+}
 
 //update the dragging process
 if (not update_drag)
