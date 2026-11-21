@@ -1,3 +1,6 @@
+camPosId = 0
+CamPosArr = [[0, 0], [1376, 0]]
+
 
 x = 0
 y = 0
