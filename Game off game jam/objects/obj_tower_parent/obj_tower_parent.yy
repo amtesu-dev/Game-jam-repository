@@ -43,6 +43,7 @@
     {"$GMObjectProperty":"v2","%Name":"shoot_frames","filters":[],"listItems":[],"multiselect":false,"name":"shoot_frames","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"image_follow_dir","filters":[],"listItems":[],"multiselect":false,"name":"image_follow_dir","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"variable_name","filters":[],"listItems":[],"multiselect":false,"name":"variable_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"tg_is_always_nearest","filters":[],"listItems":[],"multiselect":false,"name":"tg_is_always_nearest","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varFriendlyName":"tg_is_always_nearest","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

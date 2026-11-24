@@ -79,22 +79,27 @@ if (can_shoot)
 
 
 	_target_nearest = instance_nearest(x,y,obj_dudes_parent)
-	
-
-
-	if (target == noone)
+	if tg_is_always_nearest
 	{
-		target = collision_circle(x,y,radius,_target_nearest,false,true);	//sets a target if it's within range
+		target = _target_nearest
 	}
-	else 
+	else
 	{
-		if (not instance_exists(target) or not point_in_circle(target.x,target.y,x,y,radius))
-		// checks if the target doesn't exist or if the target is within range
+		if (target == noone)
 		{
-			target = noone;
+			target = collision_circle(x,y,radius,_target_nearest,false,true);	//sets a target if it's within range
+		}
+		else 
+		{
+			if (not instance_exists(target) or not point_in_circle(target.x,target.y,x,y,radius))
+			// checks if the target doesn't exist or if the target is within range
+			{
+				target = noone;
+			}
 		}
 	}
-
+	
+	
 	if (target == noone) can_shoot = false;
 	else can_shoot = true;
 

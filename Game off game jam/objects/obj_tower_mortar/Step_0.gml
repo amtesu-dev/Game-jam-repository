@@ -2,10 +2,6 @@ event_inherited();
 
 cannon_dir = direction
 
-if (keyboard_check_pressed(vk_space)) bullet_num ++
- 
-if (bullet_num >= 4) bullet_num = 0
-
 
 
 #region commented code, already used in the create event

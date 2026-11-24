@@ -3,8 +3,8 @@
   "%Name":"Note15",
   "name":"Note15",
   "parent":{
-    "name":"Game off game jam",
-    "path":"Game off game jam.yyp",
+    "name":"notes",
+    "path":"folders/notes.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",
