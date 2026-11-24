@@ -1,5 +1,20 @@
 draw_self();
 
+if global.HarbourHp > 75
+{
+	HpSprite = Spr_HarbHealth1
+}
+else if global.HarbourHp >= 25
+{
+	HpSprite = Spr_HarbHealth1_1
+}
+else if global.HarbourHp < 25
+{
+	HpSprite = Spr_HarbHealth1_2
+}
+
+
+
 draw_set_font(fnt_ui);
 
 func_draw_set(1,c_white,
@@ -20,8 +35,8 @@ func_draw_set(1,c_white,
 		//)
 		var coin_pos_x = x + x_border,
 		coin_pos_y = y + y_border
-		draw_sprite_ext(spr_coin,-1,coin_pos_x,coin_pos_y,2,2,0,c_white,1)
-		var coin_w = sprite_get_width(spr_coin)
+		draw_sprite_ext(spr_wood,-1,coin_pos_x,coin_pos_y,2,2,0,c_white,1)
+		var coin_w = sprite_get_width(spr_wood)
 		draw_text_ext_transformed
 		(
 			coin_pos_x + coin_w,
@@ -36,6 +51,10 @@ func_draw_set(1,c_white,
 	
 	global.collect_x = coin_pos_x
 	global.collect_y = coin_pos_y
+	
+	
+	draw_sprite(HpSprite, 0, x + 500, 0)
+	draw_text(x + 600, 50, "Hp: " + string(global.HarbourHp))
 	
 	}
 )

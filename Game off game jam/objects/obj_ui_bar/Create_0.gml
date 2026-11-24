@@ -1,4 +1,4 @@
-
+HpSprite = noone
 
 x_border = 16;
 y_border = 16;

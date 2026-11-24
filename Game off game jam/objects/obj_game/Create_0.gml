@@ -6,6 +6,7 @@ x = 0
 y = 0
 
 global.points = start_points
+global.HarbourHp = 100
 
 // creation excute code, put this in the creation code in a room for specific modifications
 ex_code_step = function(){};

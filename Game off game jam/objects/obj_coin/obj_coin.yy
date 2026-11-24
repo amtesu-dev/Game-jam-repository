@@ -39,8 +39,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_coin",
-    "path":"sprites/spr_coin/spr_coin.yy",
+    "name":"spr_wood",
+    "path":"sprites/spr_wood/spr_wood.yy",
   },
   "spriteMaskId":null,
   "visible":true,
