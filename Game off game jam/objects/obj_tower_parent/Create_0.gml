@@ -2,7 +2,11 @@
 // A loja pode passar {drag: true}; não sobrescrevemos esse pedido.
 // hey buddy, can we NOT right comments in brazilian? it'd be awsome -Hastiry
 
-
+struct_tower_values = {
+	nm: tower_name,
+	price: price
+	
+}
 
 enum STATE
 {
@@ -26,9 +30,7 @@ enemies = [obj_dude_enemy]	//no plan to use it
 friends = [obj_dude_friend]	//no plan to use it
 
 // bullet variabkes
-bullet = obj_bullet; 
-bullet_spd = 10;
-bullet_num = 1;
+
 
 //shooting variables
 can_shoot = true;
@@ -45,6 +47,8 @@ target = noone;
 
 // grid variables
 _my_grid = noone;
+_grid_set = false
+
 
 // direction variables
 

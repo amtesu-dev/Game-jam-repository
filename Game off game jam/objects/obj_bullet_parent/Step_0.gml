@@ -1,16 +1,48 @@
 
 
+var nearest_enemy = instance_nearest(x,y,obj_dudes_parent);
+var _inst_var_ex = variable_instance_exists(nearest_enemy,"dmg_taken") 
+
 if place_meeting(x,y,obj_dudes_parent)
 {
 	
-	var nearest_enemy = instance_nearest(x,y,obj_dudes_parent)
 	if (fragile) destroy_bullet = true;
-	func_deal_dmg(dmg,nearest_enemy)
-	//show_debug_message(string(func_deal_dmg(dmg,nearest_enemy)))
+	if (not _inst_var_ex)
+	{
+		variable_instance_set(nearest_enemy,"dmg_taken",false);
+	}
+	
+	//if (nearest_enemy.dmg_taken == false)
+	//{
+	//	func_deal_dmg(dmg,nearest_enemy);
+	//	variable_instance_set(nearest_enemy,"dmg_taken",true);
+
+	//}
+	
+	if (not dealt_dmg)
+	{
+		func_deal_dmg(dmg,nearest_enemy);
+		dealt_dmg = true;
+		//a check so that bullets that contact with an object don't deal damage more than once
+		 //this is made for phasing bullets so they wouldn't deal too much damage
+		 //this part of the check is made so that the oject that has the variable set to true
+		 //doesn't keep it like that since that would stop all bullets from dealing damage
+		 //(this is the replacment of all this commented code, im keeping it just incase i want to use it later)
+	}
 	// note that the "dmg" variable is set by the obj_tower_parent after it creates a bullet
 	
 	
 }
+//else if (_inst_var_ex and nearest_enemy.dmg_taken == true) 
+//{
+//	nearest_enemy.dmg_taken = false;
+	 //a check so that bullets that contact with an object don't deal damage more than once
+	 //this is made for phasing bullets so they wouldn't deal too much damage
+	 //this part of the check is made so that the oject that has the variable set to true
+	 //doesn't keep it like that since that would stop all bullets from dealing damage
+	 
+	 // ok so half way through this code i releasied i could make it much simpler, so i did
+//}
 
 
 if (destroy_bullet) instance_destroy();

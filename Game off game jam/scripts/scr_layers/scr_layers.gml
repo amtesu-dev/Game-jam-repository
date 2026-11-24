@@ -17,7 +17,7 @@ function func_create_layer(_layer,_var_holder)
 	// i'll keep it anyways, won't hurt to have an extra 
 
 	
-	show_debug_message("lay_" + func_get_layer_name(_layer))
+	//show_debug_message("lay_" + func_get_layer_name(_layer))
 }
 
 

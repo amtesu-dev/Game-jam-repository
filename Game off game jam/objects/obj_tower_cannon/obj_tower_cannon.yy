@@ -12,6 +12,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_parent","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"propertyId":{"name":"tower_name","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"cannon",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_parent","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"propertyId":{"name":"price","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_parent","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"propertyId":{"name":"bullet_dmg","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_tower_parent","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"propertyId":{"name":"bullet","path":"objects/obj_tower_parent/obj_tower_parent.yy",},"resource":{"name":"obj_bullet_phase","path":"objects/obj_bullet_phase/obj_bullet_phase.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_bullet_phase",},
   ],
   "parent":{
     "name":"towers",
@@ -45,7 +46,10 @@
     "name":"spr_cannon",
     "path":"sprites/spr_cannon/spr_cannon.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_tower_col",
+    "path":"sprites/spr_tower_col/spr_tower_col.yy",
+  },
   "tags":[
     "dragable",
   ],

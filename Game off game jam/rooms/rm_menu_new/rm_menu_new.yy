@@ -49,7 +49,7 @@
   "name":"rm_menu_new",
   "parent":{
     "name":"rooms",
-    "path":"folders/paths/rooms.yy",
+    "path":"folders/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

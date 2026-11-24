@@ -118,7 +118,7 @@
   "name":"rm_1_0",
   "parent":{
     "name":"rooms",
-    "path":"folders/paths/rooms.yy",
+    "path":"folders/rooms.yy",
   },
   "parentRoom":{
     "name":"rm_1",

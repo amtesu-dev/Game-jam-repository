@@ -1,7 +1,7 @@
 event_inherited();
 
 cannon_dir = direction
-
+bullet_num = 1
 
 
 ex_shoot = function() 

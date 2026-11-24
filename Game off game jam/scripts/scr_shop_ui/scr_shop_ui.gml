@@ -1,6 +1,6 @@
 function func_shop_ui_set()
 {
-	var _spr = spr_shop_placeholder,
+	var _spr = spr_shop,
 	_spr_w = sprite_get_width(_spr),
 	_spr_h = sprite_get_height(_spr),
 	_gap = _spr_w / 2,
@@ -42,7 +42,7 @@ function func_shop_ui_set()
 			}
 			);
 
-			show_debug_message(string(i))
+			//show_debug_message(string(i))
 			// something wierd happened, the 2nd and 4th shop object created with this script jjust kind of disapeared after adding the _shop_slot into the var_struct
 			// it didn't happen again when i replayed which was VERY weird, maybe it's just a one off thing but idk.
 			// IT HAPPNED AGAIN!!!
@@ -51,7 +51,7 @@ function func_shop_ui_set()
 			//this app is gonna make me go insane
 		array_insert(_array_current_items,_c_item,i);
 		
-		DEBUG_MESSAGE;
+		//DEBUG_MESSAGE;
 		_i = i
 
 	}

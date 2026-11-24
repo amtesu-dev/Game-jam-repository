@@ -1,5 +1,5 @@
-camPosId = 0
-CamPosArr = [[0, 0], [1376, 0]]
+//camPosId = 0
+//CamPosArr = [[0, 0], [1376, 0]]
 
 
 x = 0
@@ -20,12 +20,21 @@ ex_code_room_end = function(){};
 //instance_create_depth(0,0,depth,obj_init)
 
 
-layer_instances = layer_get_id("lay_instances")
-layer_water = layer_get_id("lay_water")
-layer_ui = layer_get_id("lay_ui")
-layer_game = layer_get_id("lay_game")
+layer_instances = layer_get_id("lay_instances");
+layer_water = layer_get_id("lay_water");
+layer_ui = layer_get_id("lay_ui");
+layer_game = layer_get_id("lay_game");
 
 
+// objects created in every room
+arr_rm_start_objects = [
+obj_init,
+obj_drag_manager,
+obj_ui,
+obj_ui_shop,
+obj_grid_hover
+//obj_grid_set_focus
+]
 
 
 

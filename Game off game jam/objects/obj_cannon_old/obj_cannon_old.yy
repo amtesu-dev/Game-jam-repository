@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"testing",
-    "path":"folders/objects/game/system/testing.yy",
+    "path":"folders/objects/testing.yy",
   },
   "parentObjectId":{
     "name":"obj_drag",

@@ -3,5 +3,6 @@ event_inherited();
 
 ex_shoot = function()
 {
-	func_shoot(obj_bullet2,bullet_spd,bullet_dmg,bullet_depth,direction,x,y)
+	func_shoot(bullet,bullet_spd,bullet_dmg,bullet_depth,direction,x,y)
 }
+

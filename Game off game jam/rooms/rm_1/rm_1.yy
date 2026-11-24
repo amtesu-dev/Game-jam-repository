@@ -120,7 +120,7 @@
   "name":"rm_1",
   "parent":{
     "name":"rooms",
-    "path":"folders/paths/rooms.yy",
+    "path":"folders/rooms.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

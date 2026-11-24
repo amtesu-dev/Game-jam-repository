@@ -30,6 +30,9 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"can_shoot","filters":[],"listItems":[],"multiselect":false,"name":"can_shoot","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"bullet","filters":[
+        "GMObject",
+      ],"listItems":[],"multiselect":false,"name":"bullet","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_bullet","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"bullet_dmg","filters":[],"listItems":[],"multiselect":false,"name":"bullet_dmg","rangeEnabled":true,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"bullet_spd","filters":[],"listItems":[],"multiselect":false,"name":"bullet_spd","rangeEnabled":true,"rangeMax":100.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"10","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"bullet_depth","filters":[],"listItems":[],"multiselect":false,"name":"bullet_depth","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
@@ -39,11 +42,15 @@
     {"$GMObjectProperty":"v2","%Name":"price","filters":[],"listItems":[],"multiselect":false,"name":"price","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"shoot_frames","filters":[],"listItems":[],"multiselect":false,"name":"shoot_frames","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"image_follow_dir","filters":[],"listItems":[],"multiselect":false,"name":"image_follow_dir","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"variable_name","filters":[],"listItems":[],"multiselect":false,"name":"variable_name","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":null,
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_tower_col",
+    "path":"sprites/spr_tower_col/spr_tower_col.yy",
+  },
   "visible":true,
 }

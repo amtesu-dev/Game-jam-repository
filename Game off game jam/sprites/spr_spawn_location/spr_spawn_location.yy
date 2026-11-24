@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"place holders",
-    "path":"folders/sprites/place holders.yy",
+    "name":"dev tools",
+    "path":"folders/sprites/place holders/dev tools.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

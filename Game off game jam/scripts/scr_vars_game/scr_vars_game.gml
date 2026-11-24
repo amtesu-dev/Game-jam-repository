@@ -3,6 +3,8 @@ global.grid_size = 64;
 global.grid_objects = [obj_grid];
 global.grid_snap_global = false;	// whether the dragged objects should snap in accordence to the room's grid or not
 
+global.drag_click = true;
+
 global.points = 0;
 
 global.spawner_order = 0;

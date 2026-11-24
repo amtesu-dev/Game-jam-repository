@@ -27,5 +27,6 @@
 #endregion
 
 destroy_bullet = false //set to true to destroy the bullet
+dealt_dmg = false;
 
 ex_no_hp = function() {}

@@ -35,7 +35,7 @@
   "name":"Rm_HarbourBuild_test",
   "parent":{
     "name":"Harbour",
-    "path":"folders/Harbour.yy",
+    "path":"folders/testing/Harbour.yy",
   },
   "parentRoom":null,
   "physicsSettings":{

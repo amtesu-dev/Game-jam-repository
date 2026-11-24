@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"Harbour",
-    "path":"folders/Harbour.yy",
+    "path":"folders/testing/Harbour.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -4,7 +4,8 @@ function scr_drag_update() {
 	var _mouse_pressed = mouse_check_button_pressed(mb_left),
 	_mouse_released = mouse_check_button_released(mb_left),
 	_grid_objs = global.grid_objects,
-	_grid_snap = global.grid_snap_global;
+	_grid_snap = global.grid_snap_global,
+	_drag_click = global.drag_click;
 	
 	//	Select an new target at click. Also respect drag:true used by the store
 	// to start moving an item early bought.

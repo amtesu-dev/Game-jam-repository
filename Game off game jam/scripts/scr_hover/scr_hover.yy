@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_hover",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_hover",
+  "parent":{
+    "name":"grid",
+    "path":"folders/scripts/functions/grid.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

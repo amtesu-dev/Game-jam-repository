@@ -44,8 +44,8 @@
   },
   "origin":0,
   "parent":{
-    "name":"place holders",
-    "path":"folders/sprites/place holders.yy",
+    "name":"ui",
+    "path":"folders/sprites/place holders/ui.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
