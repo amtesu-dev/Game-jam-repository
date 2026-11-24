@@ -1,7 +1,8 @@
 
 draw_tower = false;
 _shop_slot = undefined;
-_item_bought = noone
+_item_bought = noone;
+_item_is_selected = false;
 
 
 //_price = variable_instance_get(item,"price")

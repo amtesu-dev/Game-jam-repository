@@ -72,6 +72,7 @@
     {"$GMIncludedFile":"","%Name":"BattleShifSpritePractice.webp","CopyToMask":-1,"filePath":"datafiles","name":"BattleShifSpritePractice.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"BattleShiftConceptArt.webp","CopyToMask":-1,"filePath":"datafiles","name":"BattleShiftConceptArt.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"BetterNesBattleShift.webp","CopyToMask":-1,"filePath":"datafiles","name":"BetterNesBattleShift.webp","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"BoldPixels.dfont","CopyToMask":-1,"filePath":"datafiles","name":"BoldPixels.dfont","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"Ship.png","CopyToMask":-1,"filePath":"datafiles","name":"Ship.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"spr_ArcherFish.png","CopyToMask":-1,"filePath":"datafiles","name":"spr_ArcherFish.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"spr_Battlleship.png","CopyToMask":-1,"filePath":"datafiles","name":"spr_Battlleship.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -87,6 +88,7 @@
   "name":"Game off game jam",
   "resources":[
     {"id":{"name":"fnt_def","path":"fonts/fnt_def/fnt_def.yy",},},
+    {"id":{"name":"fnt_pixel","path":"fonts/fnt_pixel/fnt_pixel.yy",},},
     {"id":{"name":"fnt_ui","path":"fonts/fnt_ui/fnt_ui.yy",},},
     {"id":{"name":"DELETE UNUSED NOTES","path":"notes/DELETE UNUSED NOTES/DELETE UNUSED NOTES.yy",},},
     {"id":{"name":"few additions and fixes for the scr_drag","path":"notes/few additions and fixes for the scr_drag/few additions and fixes for the scr_drag.yy",},},
@@ -150,6 +152,7 @@
     {"id":{"name":"rm_menu_new","path":"rooms/rm_menu_new/rm_menu_new.yy",},},
     {"id":{"name":"rm_path_test","path":"rooms/rm_path_test/rm_path_test.yy",},},
     {"id":{"name":"rm_ui_test","path":"rooms/rm_ui_test/rm_ui_test.yy",},},
+    {"id":{"name":"Room10","path":"rooms/Room10/Room10.yy",},},
     {"id":{"name":"__obj_camera_view_methods","path":"scripts/__obj_camera_view_methods/__obj_camera_view_methods.yy",},},
     {"id":{"name":"__obj_camera_window_methods","path":"scripts/__obj_camera_window_methods/__obj_camera_window_methods.yy",},},
     {"id":{"name":"Helper_functions","path":"scripts/Helper_functions/Helper_functions.yy",},},
@@ -246,6 +249,7 @@
     {"roomId":{"name":"rm_menu_new","path":"rooms/rm_menu_new/rm_menu_new.yy",},},
     {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Rm_HarbourBuild_test","path":"rooms/Rm_HarbourBuild_test/Rm_HarbourBuild_test.yy",},},
+    {"roomId":{"name":"Room10","path":"rooms/Room10/Room10.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
