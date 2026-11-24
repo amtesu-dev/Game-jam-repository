@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ui_bar",
-    "path":"sprites/spr_ui_bar/spr_ui_bar.yy",
+    "name":"spr_UI_panel",
+    "path":"sprites/spr_UI_panel/spr_UI_panel.yy",
   },
   "spriteMaskId":null,
   "visible":true,
