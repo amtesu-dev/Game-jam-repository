@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_bullet",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_bullet",
   "overriddenProperties":[
@@ -35,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bullet",
-    "path":"sprites/spr_bullet/spr_bullet.yy",
+    "name":"spr_bullet_ph",
+    "path":"sprites/spr_bullet_ph/spr_bullet_ph.yy",
   },
   "spriteMaskId":null,
   "visible":true,
