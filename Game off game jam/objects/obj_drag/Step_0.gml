@@ -13,7 +13,7 @@ if (drag)
 	//var grid = collision_circle(x,y,self.sprite_height/2,obj_grid,true,true)
 	//var grid_nearest = instance_nearest(grid.x,grid.y,grid)
 
-	if place_meeting(x,y,obj_grid)
+	if place_meeting(x,y,obj_grid_old)
 	{
 		move_snap(global.grid_size,global.grid_size)
 	

@@ -1,5 +1,5 @@
 
-var _mouse_grid = instance_position(mouse_x,mouse_y,obj_grid);
+var _mouse_grid = instance_position(mouse_x,mouse_y,obj_grid_old);
 
 
 if position_meeting(mouse_x,mouse_y,_mouse_grid)

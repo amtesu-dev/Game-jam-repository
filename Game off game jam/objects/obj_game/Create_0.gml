@@ -1,3 +1,5 @@
+randomise()
+
 //camPosId = 0
 //CamPosArr = [[0, 0], [1376, 0]]
 

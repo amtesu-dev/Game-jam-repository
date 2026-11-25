@@ -9,8 +9,8 @@
   "name":"obj_tower_buy",
   "overriddenProperties":[],
   "parent":{
-    "name":"towers",
-    "path":"folders/objects/units/towers.yy",
+    "name":"UNUSED",
+    "path":"folders/UNUSED.yy",
   },
   "parentObjectId":null,
   "persistent":false,
