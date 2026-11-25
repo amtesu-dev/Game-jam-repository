@@ -3,19 +3,10 @@
 if (can_buy and item != noone)
 {
 	//mthd_buy();
-	//if (not _item_is_selected) _item_is_selected = true;
 	
-	if (not draw_tower)
-	{
-		draw_tower = true;
-	}
+	obj_grid_hover._mouse_obj = item;
+	draw_tower = true;
+	mouse_clear(mb_left);
 	
-	if (_item_is_selected)
-	{
-		obj_grid_hover._mouse_obj = item;
-	}
-	else 
-	{
-		_item_is_selected = true;
-	}
+	
 }
