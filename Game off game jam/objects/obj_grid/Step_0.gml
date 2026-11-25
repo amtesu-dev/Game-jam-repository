@@ -8,22 +8,24 @@ with obj_tower_parent
 		}
 	}
 }
+
+
 //debug
 if keyboard_check(vk_left)
 {
-	x-=3
+	x-=4
 }
 if keyboard_check(vk_right)
 {
-	x+=3
+	x+=4
 }
 if keyboard_check(vk_up)
 {
-	y-=3
+	y-=4
 }
 if keyboard_check(vk_down)
 {
-	y+=3
+	y+=4
 }
 
 
@@ -37,11 +39,11 @@ for(var i = 0; i < array_length(towers); i++)
 	{
 		if towers[i][0].drag
 		{
-			towers[i][1] = round((towers[i][0].x - x)/w)*w
-			towers[i][2] = round((towers[i][0].y - y)/h)*h
+			towers[i][1] = towers[i][0].x - x
+			towers[i][2] = towers[i][0].y - y
 		}
 		
-		towers[i][0].x = towers[i][1] + x
-		towers[i][0].y = towers[i][2] + y
+		towers[i][0].x = round(towers[i][1]/w)*w + x + 0.5*w
+		towers[i][0].y = round(towers[i][2]/h)*h + y + 0.5*h
 	}
 }
