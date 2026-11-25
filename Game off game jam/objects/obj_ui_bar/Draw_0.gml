@@ -13,7 +13,7 @@ draw_self();
 //	HpSprite = Spr_HarbHealth1_2
 //}
 
-draw_sprite_stretched(spr_ui_bar,0,x,y,1920,1080)
+//draw_sprite_stretched(spr_ui_bar,0,x,y,1920,1080)
 
 draw_set_font(fnt_ui);
 
