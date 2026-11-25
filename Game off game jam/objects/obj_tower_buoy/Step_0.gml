@@ -1,3 +1,5 @@
+event_inherited()
+
 if keyboard_check_pressed(vk_enter)
 {
 	hp --

@@ -1,5 +1,5 @@
 
-var _mouse_grid = instance_position(mouse_x,mouse_y,obj_grid);
+var _mouse_grid = instance_position(mouse_x,mouse_y,obj_grid_old);
 
 
 if position_meeting(mouse_x,mouse_y,_mouse_grid)
@@ -8,7 +8,7 @@ if position_meeting(mouse_x,mouse_y,_mouse_grid)
 	if (_mouse_obj != noone and mouse_check_button_pressed(mb_left))
 	{
 		
-		with (obj_grid)
+		with (obj_grid_old)
 		{
 			instance_change(obj_grid_hover._mouse_obj,true);
 			MESSAGE
