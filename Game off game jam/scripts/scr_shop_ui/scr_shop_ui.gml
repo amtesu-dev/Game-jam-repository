@@ -30,7 +30,10 @@ function func_shop_ui_set()
 		// cheacks if i isn't out of the array's range, if so "itm" is set as the coorosponding item in the array
 		// otherwise, "itm" keeps it's original value as noone, then "itm" is passed into the created shop and st as
 		// the shop's item
-			_c_item = instance_create_layer(x,y,creation_layer,obj_shop_2,
+		
+		var _ui_depth = func_get_layer_depth(LAYER.ui)
+		
+		_c_item = instance_create_depth(x,y,_ui_depth,obj_shop_2,
 			{
 				x_offset:  _gap + 128 + ((2 *_gap + 5 ) * i),
 				y_offset: _spr_h,
