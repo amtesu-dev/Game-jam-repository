@@ -13,15 +13,7 @@ draw_self();
 //	HpSprite = Spr_HarbHealth1_2
 //}
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 //draw_sprite_stretched(spr_ui_bar,0,x,y,1920,1080)
-=======
-=======
->>>>>>> parent of 30d1e35 (Merge branch 'main' of https://github.com/amtesu-dev/Game-jam-repository)
-
-draw_sprite_stretched(spr_UI_panel,0,x,y,BASE_W,100);
->>>>>>> parent of 30d1e35 (Merge branch 'main' of https://github.com/amtesu-dev/Game-jam-repository)
 
 draw_set_font(fnt_ui);
 

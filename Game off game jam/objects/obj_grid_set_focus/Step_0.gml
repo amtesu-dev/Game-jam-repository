@@ -1,5 +1,5 @@
 
-var tile = instance_position(mouse_x,mouse_y,obj_grid)
+var tile = instance_position(mouse_x,mouse_y,obj_grid_old)
 
 
 if (tile == noone)
