@@ -1,3 +1,5 @@
+hit = []
+
 
 #region insane person talks to himself
 //dmg = 1	// this value doesn't get used and is only here to prevent errors
