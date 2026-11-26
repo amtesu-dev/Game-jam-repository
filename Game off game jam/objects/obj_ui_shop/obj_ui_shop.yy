@@ -34,7 +34,7 @@
   ],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"creation_layer","filters":[],"listItems":[],"multiselect":false,"name":"creation_layer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"lay_ui","varDescription":"used to decide the layer that an object is created in","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"creation_layer","filters":[],"listItems":[],"multiselect":false,"name":"creation_layer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"lay_instances","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

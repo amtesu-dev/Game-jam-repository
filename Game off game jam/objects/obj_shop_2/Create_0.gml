@@ -1,10 +1,8 @@
 
 draw_tower = false;
 _shop_slot = undefined;
-_item_bought = noone;
-_item_is_placed = false;
+_item_bought = noone
 
-//global.item_is_placed = false;
 
 //_price = variable_instance_get(item,"price")
 //_name = variable_instance_get(item,"tower_name");

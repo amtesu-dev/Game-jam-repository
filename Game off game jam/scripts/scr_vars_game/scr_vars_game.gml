@@ -23,4 +23,3 @@ global.array_enemies = [obj_dude_enemy,obj_dude_sad,obj_dude_friend];
 global.array_items = [obj_tower_cannon,obj_tower_2];
 
 
-
