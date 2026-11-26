@@ -1,6 +1,4 @@
 
-
-
 if draw_money
 {
 

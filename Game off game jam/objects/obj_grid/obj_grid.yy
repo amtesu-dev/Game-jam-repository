@@ -1,17 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"Obj_Grid",
+  "%Name":"obj_grid",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Obj_Grid",
+  "name":"obj_grid",
   "overriddenProperties":[],
   "parent":{
-    "name":"others",
-    "path":"folders/objects/game/others.yy",
+    "name":"grids",
+    "path":"folders/objects/game/others/grids.yy",
   },
   "parentObjectId":null,
   "persistent":false,
