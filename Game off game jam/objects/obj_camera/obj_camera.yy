@@ -33,7 +33,7 @@
     {"$GMObjectProperty":"v2","%Name":"camera_target","filters":[
         "GMObject",
         "GMSprite",
-      ],"listItems":[],"multiselect":false,"name":"camera_target","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_ship","path":"objects/obj_ship/obj_ship.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_ship","varType":5,},
+      ],"listItems":[],"multiselect":false,"name":"camera_target","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_ship","varType":4,},
     {"$GMObjectProperty":"v2","%Name":"cam_perc","filters":[],"listItems":[],"multiselect":false,"name":"cam_perc","rangeEnabled":true,"rangeMax":1.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.2","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"_x","filters":[],"listItems":[],"multiselect":false,"name":"_x","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"_y","filters":[],"listItems":[],"multiselect":false,"name":"_y","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},

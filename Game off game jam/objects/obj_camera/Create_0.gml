@@ -5,6 +5,10 @@
 //window_scale = mthd_calculate_max_window_scale();
 //mthd_init_window();
 
+order = 0;
+
+
+
 var _max_h_scale = display_get_height() / BASE_H;
 var _max_w_scale = display_get_width() / BASE_W;
 
@@ -52,4 +56,4 @@ zoom = {
 };
 
 
-room_goto(Room10);
+room_goto(room_next(room));

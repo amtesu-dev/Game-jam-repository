@@ -2,16 +2,16 @@ if keyboard_check(vk_control) && keyboard_check_pressed(ord("H"))
 {
 	show_debug_overlay(!is_debug_overlay_open())
 }
-if keyboard_check_pressed(vk_shift)
-{
-	camPosId++
-	if camPosId >= array_length(CamPosArr)
-	{
-		camPosId = 0
-	}
-	Obj_Cam.TgX = CamPosArr[camPosId][0]
-	Obj_Cam.TgY = CamPosArr[camPosId][1]
-}
+//if keyboard_check_pressed(vk_shift)
+//{
+//	camPosId++
+//	if camPosId >= array_length(CamPosArr)
+//	{
+//		camPosId = 0
+//	}
+//	Obj_Cam.TgX = CamPosArr[camPosId][0]
+//	Obj_Cam.TgY = CamPosArr[camPosId][1]
+//}
 
 
 

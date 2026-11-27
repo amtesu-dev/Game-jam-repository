@@ -9,10 +9,12 @@
 
 //ap_ship = _ap_ship_1[0]
 
+array_push(global.array_ships,self)
+
 _grid_num = 2
 
 
-arr_objs_list = [obj_tower_2,obj_tower_2,obj_tower_2];
+arr_objs_list = [obj_grid_old,obj_grid_old,obj_grid_old];
 
 //for (var i = 0; i = _grid_num; i --)
 //{
@@ -45,6 +47,16 @@ arr_objs_pos = [
 arr_attached = [];
 
 
+
+for (var i = 0; i == instance_number(obj_grid_old); i++)
+{
+	var _inst = instance_place(x,y,obj_grid_old)
+	
+	func_add_attached(_inst);
+	
+	
+}
+
 //for (var i = 0; i == array_length(arr_objs_list) - 1; i --)
 //{
 //	var _inst = arr_objs_list[i]
@@ -74,6 +86,7 @@ array_foreach(arr_objs_list, function(_inst)
 	
 })
 
+//func_add_attached(obj_grid_old)
 
 #region
 func_add_attached(grd_t_1);

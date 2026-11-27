@@ -8,7 +8,7 @@ global.first_layer = layer_get_id("lay_first")
 
 ex_code_room_end = function()
 {
-	if room == rm_menu_new
+	if room == rm_menu_old
 	{
 		draw_money = true
 		update_drag = true
