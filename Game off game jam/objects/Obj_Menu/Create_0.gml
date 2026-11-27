@@ -5,6 +5,8 @@ MaxDownTitleYOff = 500;
 
 MenuXOff = 0
 MenuTgXOff = 0
+MenuYOff = 0
+MenuTgYOff = 0
 
 GoMargin = 150;
 

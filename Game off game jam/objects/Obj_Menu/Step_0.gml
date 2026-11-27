@@ -26,10 +26,15 @@ else if page = "title_up"
 
 if page = "main"
 {
+	MenuTgYOff = 0
 	#region btn
 	if !instance_exists(Obj_menu_Btn_start)
 	{
 		instance_create_depth(x, y, depth - 1, Obj_menu_Btn_start)
+	}
+	if !instance_exists(Obj_menu_Btn_exit)
+	{
+		instance_create_depth(x, y, depth - 1, Obj_menu_Btn_exit)
 	}
 	#endregion
 	if canSwapMain
@@ -67,7 +72,7 @@ if page = "main"
 		canSwapMain = true
 	}
 	
-	MenuXOff = lerp(MenuXOff, MenuTgXOff, 0.2)
+	
 }
 else
 {
@@ -77,5 +82,22 @@ else
 	{
 		instance_destroy(Obj_menu_Btn_start)
 	}
+	if instance_exists(Obj_menu_Btn_exit)
+	{
+		instance_destroy(Obj_menu_Btn_exit)
+	}
 	#endregion
 }
+
+if page = "LvSelect"
+{
+	MenuTgYOff = -1080
+}
+
+
+
+
+
+
+MenuXOff = lerp(MenuXOff, MenuTgXOff, 0.2)
+MenuYOff = lerp(MenuYOff, MenuTgYOff, 0.2)
