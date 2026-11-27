@@ -32,6 +32,10 @@ if page = "main"
 	{
 		instance_create_depth(x, y, depth - 1, Obj_menu_Btn_start)
 	}
+	if !instance_exists(Obj_menu_Btn_back)
+	{
+		instance_create_depth(x, y, depth - 1, Obj_menu_Btn_back)
+	}
 	if !instance_exists(Obj_menu_Btn_exit)
 	{
 		instance_create_depth(x, y, depth - 1, Obj_menu_Btn_exit)
@@ -76,17 +80,6 @@ if page = "main"
 }
 else
 {
-	
-	#region btn
-	if instance_exists(Obj_menu_Btn_start)
-	{
-		instance_destroy(Obj_menu_Btn_start)
-	}
-	if instance_exists(Obj_menu_Btn_exit)
-	{
-		instance_destroy(Obj_menu_Btn_exit)
-	}
-	#endregion
 }
 
 if page = "LvSelect"
