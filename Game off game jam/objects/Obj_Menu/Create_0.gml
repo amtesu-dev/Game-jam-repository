@@ -10,5 +10,8 @@ MenuTgYOff = 0
 
 GoMargin = 150;
 
+SelLvl = 0
+SelLvlMax = 2
+
 canSwapMain = true
 

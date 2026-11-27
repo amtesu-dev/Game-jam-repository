@@ -32,10 +32,7 @@ if page = "main"
 	{
 		instance_create_depth(x, y, depth - 1, Obj_menu_Btn_start)
 	}
-	if !instance_exists(Obj_menu_Btn_back)
-	{
-		instance_create_depth(x, y, depth - 1, Obj_menu_Btn_back)
-	}
+
 	if !instance_exists(Obj_menu_Btn_exit)
 	{
 		instance_create_depth(x, y, depth - 1, Obj_menu_Btn_exit)
@@ -85,6 +82,20 @@ else
 if page = "LvSelect"
 {
 	MenuTgYOff = -1080
+	
+	if !instance_exists(Obj_menu_Btn_lvl_sel_nextLvl)
+	{
+		instance_create_depth(x, y, depth - 1, Obj_menu_Btn_lvl_sel_nextLvl)
+	}
+	if !instance_exists(Obj_menu_Btn_back)
+	{
+		instance_create_depth(x, y, depth - 1, Obj_menu_Btn_back)
+	}
+	
+	if SelLvl > SelLvlMax
+	{
+		SelLvl = 0
+	}
 }
 
 
