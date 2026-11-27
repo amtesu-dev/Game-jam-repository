@@ -6,7 +6,7 @@
   "name":"__obj_camera_view_methods",
   "parent":{
     "name":"object functions",
-    "path":"folders/scripts/functions/camera/object functions.yy",
+    "path":"folders/object functions.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -6,7 +6,7 @@
   "name":"scr_cam_subpixel",
   "parent":{
     "name":"camera",
-    "path":"folders/scripts/functions/camera.yy",
+    "path":"folders/objects/game/system/scripts/functions/camera.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

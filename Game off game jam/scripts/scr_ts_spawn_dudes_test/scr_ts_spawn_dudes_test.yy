@@ -6,7 +6,7 @@
   "name":"scr_ts_spawn_dudes_test",
   "parent":{
     "name":"testing",
-    "path":"folders/scripts/testing.yy",
+    "path":"folders/objects/game/system/scripts/testing.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

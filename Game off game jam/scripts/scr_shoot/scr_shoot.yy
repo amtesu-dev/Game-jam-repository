@@ -6,7 +6,7 @@
   "name":"scr_shoot",
   "parent":{
     "name":"towers",
-    "path":"folders/scripts/functions/towers.yy",
+    "path":"folders/objects/game/system/scripts/functions/towers.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -6,7 +6,7 @@
   "name":"scr_spawn",
   "parent":{
     "name":"other",
-    "path":"folders/scripts/functions/other.yy",
+    "path":"folders/objects/game/system/scripts/functions/other.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

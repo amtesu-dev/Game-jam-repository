@@ -6,7 +6,7 @@
   "name":"scr_drag",
   "parent":{
     "name":"code",
-    "path":"folders/scripts/code.yy",
+    "path":"folders/objects/game/system/scripts/code.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

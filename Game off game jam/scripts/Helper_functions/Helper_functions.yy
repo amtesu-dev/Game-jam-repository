@@ -6,7 +6,7 @@
   "name":"Helper_functions",
   "parent":{
     "name":"functions",
-    "path":"folders/scripts/functions.yy",
+    "path":"folders/objects/game/system/scripts/functions.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

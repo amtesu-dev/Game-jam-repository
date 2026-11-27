@@ -6,7 +6,7 @@
   "name":"scr_shop_ui",
   "parent":{
     "name":"shop",
-    "path":"folders/scripts/functions/shop.yy",
+    "path":"folders/objects/game/system/scripts/functions/shop.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

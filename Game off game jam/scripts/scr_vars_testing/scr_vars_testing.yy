@@ -6,7 +6,7 @@
   "name":"scr_vars_testing",
   "parent":{
     "name":"global",
-    "path":"folders/scripts/variables/global.yy",
+    "path":"folders/objects/game/system/scripts/variables/global.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

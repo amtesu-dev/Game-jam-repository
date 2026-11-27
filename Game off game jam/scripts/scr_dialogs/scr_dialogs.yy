@@ -6,7 +6,7 @@
   "name":"scr_dialogs",
   "parent":{
     "name":"variables",
-    "path":"folders/scripts/variables.yy",
+    "path":"folders/objects/game/system/scripts/variables.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

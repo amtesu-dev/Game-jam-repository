@@ -6,7 +6,7 @@
   "name":"scr_hover",
   "parent":{
     "name":"grid",
-    "path":"folders/scripts/functions/grid.yy",
+    "path":"folders/objects/game/system/scripts/functions/grid.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

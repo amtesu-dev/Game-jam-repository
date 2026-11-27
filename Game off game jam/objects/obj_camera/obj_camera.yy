@@ -12,8 +12,8 @@
   "name":"obj_camera",
   "overriddenProperties":[],
   "parent":{
-    "name":"system",
-    "path":"folders/objects/game/system.yy",
+    "name":"camera",
+    "path":"folders/objects/game/system/scripts/functions/camera.yy",
   },
   "parentObjectId":null,
   "persistent":true,
