@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_button_full_screen_off",
-    "path":"sprites/spr_button_full_screen_off/spr_button_full_screen_off.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

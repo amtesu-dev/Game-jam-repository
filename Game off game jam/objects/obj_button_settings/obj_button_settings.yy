@@ -29,13 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_button_settings",
-    "path":"sprites/spr_button_settings/spr_button_settings.yy",
-  },
-  "spriteMaskId":{
-    "name":"spr_button_settings",
-    "path":"sprites/spr_button_settings/spr_button_settings.yy",
-  },
+  "spriteId":null,
+  "spriteMaskId":null,
   "visible":true,
 }

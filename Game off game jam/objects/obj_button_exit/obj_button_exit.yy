@@ -29,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_button_exit",
-    "path":"sprites/spr_button_exit/spr_button_exit.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
