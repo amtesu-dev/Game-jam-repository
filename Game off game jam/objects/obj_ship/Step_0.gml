@@ -12,44 +12,55 @@
 //tower.image_angle = _arr[2];
 
 #region movement
-	if keyboard_check(vk_left)
+	
+	
+	// checks if the ship is the camera's target, if so then the ship can move
+	if (obj_camera.camera_target == self) can_move = true;
+	else can_move = false;
+	
+	
+	
+	if (can_move)
 	{
-		dest = direction + turning_amount
-	}
-	else if keyboard_check(vk_right)
-	{
-		dest = direction - turning_amount
-	}
-
-
-	if keyboard_check(vk_up)
-	{
-		if spd < spd_max
+		if keyboard_check(vk_left)
 		{
-			spd += spd_accel
+			dest = direction + turning_amount
 		}
-	}
-	else if ( spd > 0)
+		else if keyboard_check(vk_right)
+		{
+			dest = direction - turning_amount
+		}
 
-	{
-		spd -= spd_deaccel
-	}
 
-	if keyboard_check(vk_down)
-	{
-		if spd > -spd_max * 0.25
+		if keyboard_check(vk_up)
+		{
+			if spd < spd_max
+			{
+				spd += spd_accel
+			}
+		}
+		else if ( spd > 0)
+
 		{
 			spd -= spd_deaccel
 		}
+
+		if keyboard_check(vk_down)
+		{
+			if spd > -spd_max * 0.25
+			{
+				spd -= spd_deaccel
+			}
+		}
+		else if (spd < 0)
+		{
+			spd += spd_deaccel
+		}
+		speed = spd * spd_multiplier;  
+		var diff = angle_difference(dest,direction);
+		direction += diff * turning_multiplier;
+		if (image_follow_dir) image_angle = direction
 	}
-	else if (spd < 0)
-	{
-		spd += spd_deaccel
-	}
-	speed = spd * spd_multiplier;  
-	var diff = angle_difference(dest,direction);
-	direction += diff * turning_multiplier;
-	if (image_follow_dir) image_angle = direction
 #endregion
 
 

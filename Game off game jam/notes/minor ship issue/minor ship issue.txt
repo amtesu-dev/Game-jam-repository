@@ -1,0 +1,8 @@
+
+i want it so that the ship will be able to move whenever the camera is set on it.
+
+it works PERFECTLY just for whatever reason it doesn't work for the very first one
+
+i'll figure out a solution, if you're reading this and have one implement it (without breaking anything pls)
+or just tell me 
+-Hastiry
