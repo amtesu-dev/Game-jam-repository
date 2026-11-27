@@ -20,6 +20,6 @@ global.collect_y = 0;
 global.array_enemies = [obj_dude_enemy,obj_dude_sad,obj_dude_friend];
 
 
-global.array_items = [obj_tower_cannon,obj_tower_2];
+global.array_items = [obj_tower_cannon,obj_tower_2,obj_tower_harpoon,obj_tower_mortar];
 
 

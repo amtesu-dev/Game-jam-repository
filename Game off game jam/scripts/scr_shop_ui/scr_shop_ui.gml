@@ -7,6 +7,10 @@ function func_shop_ui_set()
 	_y_ancor = VIEW_H + _spr_h + 20,
 	_x_ancor = VIEW_X;
 
+
+	//_y_ancor = VIEW_H + _spr_h + 20;
+	//_x_ancor = VIEW_X;
+	
 	var _item_list = global.array_items,
 	_shop_slot_num = 4,
 	_var_struct = {
@@ -30,9 +34,9 @@ function func_shop_ui_set()
 		// cheacks if i isn't out of the array's range, if so "itm" is set as the coorosponding item in the array
 		// otherwise, "itm" keeps it's original value as noone, then "itm" is passed into the created shop and st as
 		// the shop's item
-			_c_item = instance_create_layer(x,y,creation_layer,obj_shop_2,
+			_c_item = instance_create_depth(x,y,func_get_layer_depth(LAYER.ui) - 10,obj_shop_2,
 			{
-				x_offset:  _gap + 128 + ((2 *_gap + 5 ) * i),
+				x_offset:  _gap + 128 + ((2 *_gap  + sprite_get_width(spr_UI_panel) / 2 - 10) * i),
 				y_offset: _spr_h,
 				item: itm,
 				set_ui_pos: true,

@@ -21,7 +21,8 @@
     {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"game","folderPath":"folders/objects/game.yy","name":"game","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"dev tools","folderPath":"folders/objects/game/dev tools.yy","name":"dev tools","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"others","folderPath":"folders/objects/game/others.yy","name":"others","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"grids","folderPath":"folders/objects/game/grids.yy","name":"grids","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"shop","folderPath":"folders/objects/game/shop.yy","name":"shop","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"system","folderPath":"folders/objects/game/system.yy","name":"system","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ui","folderPath":"folders/objects/game/ui.yy","name":"ui","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"menu","folderPath":"folders/objects/game/ui/menu.yy","name":"menu","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -82,7 +83,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.4.222",
+    "IDEVersion":"2026.0.0.16",
   },
   "name":"Game off game jam",
   "resources":[

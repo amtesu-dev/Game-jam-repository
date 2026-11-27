@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"grids",
-    "path":"folders/UNUSED/grids.yy",
+    "path":"folders/objects/game/grids.yy",
   },
   "parentObjectId":null,
   "persistent":false,

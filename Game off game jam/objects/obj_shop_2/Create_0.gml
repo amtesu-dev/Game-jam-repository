@@ -1,4 +1,7 @@
 
+image_speed = 0;
+image_index = 1;
+
 draw_tower = false;
 _shop_slot = undefined;
 _item_bought = noone

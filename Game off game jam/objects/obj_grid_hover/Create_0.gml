@@ -1,3 +1,3 @@
 
-_mouse_obj = obj_tower_cannon;
+_mouse_obj = noone;
 

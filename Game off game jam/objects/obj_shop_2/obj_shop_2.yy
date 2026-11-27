@@ -13,8 +13,8 @@
   "name":"obj_shop_2",
   "overriddenProperties":[],
   "parent":{
-    "name":"others",
-    "path":"folders/objects/game/others.yy",
+    "name":"shop",
+    "path":"folders/objects/game/shop.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -47,8 +47,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_shop",
-    "path":"sprites/spr_shop/spr_shop.yy",
+    "name":"spr_UI_panel",
+    "path":"sprites/spr_UI_panel/spr_UI_panel.yy",
   },
   "spriteMaskId":null,
   "visible":true,

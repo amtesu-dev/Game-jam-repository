@@ -4,15 +4,14 @@
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_ui_shop",
   "overriddenProperties":[],
   "parent":{
-    "name":"others",
-    "path":"folders/objects/game/others.yy",
+    "name":"shop",
+    "path":"folders/objects/game/shop.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -34,7 +33,7 @@
   ],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"creation_layer","filters":[],"listItems":[],"multiselect":false,"name":"creation_layer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"lay_instances","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"creation_layer","filters":[],"listItems":[],"multiselect":false,"name":"creation_layer","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"lay_ui","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
