@@ -227,6 +227,7 @@
     {"id":{"name":"spr_friend","path":"sprites/spr_friend/spr_friend.yy",},},
     {"id":{"name":"spr_grid_snap","path":"sprites/spr_grid_snap/spr_grid_snap.yy",},},
     {"id":{"name":"Spr_Harbour_floor","path":"sprites/Spr_Harbour_floor/Spr_Harbour_floor.yy",},},
+    {"id":{"name":"Spr_Menu_Background","path":"sprites/Spr_Menu_Background/Spr_Menu_Background.yy",},},
     {"id":{"name":"spr_projectiles","path":"sprites/spr_projectiles/spr_projectiles.yy",},},
     {"id":{"name":"spr_sad_guy","path":"sprites/spr_sad_guy/spr_sad_guy.yy",},},
     {"id":{"name":"spr_settings_panel","path":"sprites/spr_settings_panel/spr_settings_panel.yy",},},
