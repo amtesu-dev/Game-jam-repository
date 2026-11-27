@@ -5,3 +5,4 @@ MaxDownTitleYOff = 500;
 
 MenuXOff = 0
 MenuTgXOff = 0
+canSwapMain = true

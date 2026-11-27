@@ -22,17 +22,39 @@ else
 
 if page = "main"
 {
-	if abs(camera_get_view_width(view_camera[0]) - mouse_x) < 200
+	if canSwapMain
 	{
-		MenuTgXOff = -1920
+		if MenuTgXOff = 0
+		{
+			if abs(camera_get_view_width(view_camera[0]) - mouse_x) < 200
+			{
+				MenuTgXOff = -1920
+			}
+			else if mouse_x < 200
+			{
+				MenuTgXOff = 1920
+			}
+		}
+		else if MenuTgXOff = -1920
+		{
+			if mouse_x < 200
+			{
+				MenuTgXOff = 0
+				canSwapMain = false
+			}
+		}
+		else if MenuTgXOff = 1920
+		{
+			if abs(camera_get_view_width(view_camera[0]) - mouse_x) < 200
+			{
+				MenuTgXOff = 0
+				canSwapMain = false
+			}
+		}
 	}
-	else if mouse_x < 200
+	if mouse_x >= 200 && abs(camera_get_view_width(view_camera[0]) - mouse_x) >= 200
 	{
-		MenuTgXOff = 1920
-	}
-	else
-	{
-		MenuTgXOff = 0
+		canSwapMain = true
 	}
 	
 	MenuXOff = lerp(MenuXOff, MenuTgXOff, 0.2)

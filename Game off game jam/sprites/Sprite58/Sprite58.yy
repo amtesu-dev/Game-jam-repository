@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"place holders",
-    "path":"folders/sprites/place holders.yy",
+    "name":"menu",
+    "path":"folders/sprites/place holders/menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
